@@ -1,5 +1,10 @@
-module colseq ( input logic clk, reset_n, kpr[3:0] // clock, reset & keypad rows
-                output logic kpc[3:0]) // keypad columns
+// John Matson
+// A00991330
+// ELEX 7660
+// Lab 2 - Matrix Keypad Input
+
+module colseq ( input logic clk, reset_n, kpr[3:0], // clock, reset & keypad rows
+                output logic kpc[3:0]); // keypad columns
 
     logic [1:0] state;
 
