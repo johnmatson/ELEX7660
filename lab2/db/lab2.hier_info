@@ -1,0 +1,168 @@
+|lab2
+kpc[0] <= colseq:colseq_0.kpc[0]
+kpc[1] <= colseq:colseq_0.kpc[1]
+kpc[2] <= colseq:colseq_0.kpc[2]
+kpc[3] <= colseq:colseq_0.kpc[3]
+kpr[0] => kpr[0]~0.DATAIN
+kpr[1] => kpr[1]~1.DATAIN
+kpr[2] => kpr[2]~2.DATAIN
+kpr[3] => kpr[3]~3.DATAIN
+leds[0] <= decode7:decode7_0.leds[0]
+leds[1] <= decode7:decode7_0.leds[1]
+leds[2] <= decode7:decode7_0.leds[2]
+leds[3] <= decode7:decode7_0.leds[3]
+leds[4] <= decode7:decode7_0.leds[4]
+leds[5] <= decode7:decode7_0.leds[5]
+leds[6] <= decode7:decode7_0.leds[6]
+leds[7] <= decode7:decode7_0.leds[7]
+ct[0] <= kpdecode:kpdecode_0.kphit
+ct[1] <= <GND>
+ct[2] <= <GND>
+ct[3] <= <GND>
+reset_n => colseq:colseq_0.reset_n
+CLOCK_50 => CLOCK_50.IN1
+
+
+|lab2|pll:pll0
+inclk0 => sub_wire1[0].IN1
+c0 <= altpll:altpll_component.clk
+
+
+|lab2|pll:pll0|altpll:altpll_component
+inclk[0] => lab1clk_altpll:auto_generated.inclk[0]
+inclk[1] => lab1clk_altpll:auto_generated.inclk[1]
+fbin => ~NO_FANOUT~
+pllena => ~NO_FANOUT~
+clkswitch => ~NO_FANOUT~
+areset => ~NO_FANOUT~
+pfdena => ~NO_FANOUT~
+clkena[0] => ~NO_FANOUT~
+clkena[1] => ~NO_FANOUT~
+clkena[2] => ~NO_FANOUT~
+clkena[3] => ~NO_FANOUT~
+clkena[4] => ~NO_FANOUT~
+clkena[5] => ~NO_FANOUT~
+extclkena[0] => ~NO_FANOUT~
+extclkena[1] => ~NO_FANOUT~
+extclkena[2] => ~NO_FANOUT~
+extclkena[3] => ~NO_FANOUT~
+scanclk => ~NO_FANOUT~
+scanclkena => ~NO_FANOUT~
+scanaclr => ~NO_FANOUT~
+scanread => ~NO_FANOUT~
+scanwrite => ~NO_FANOUT~
+scandata => ~NO_FANOUT~
+phasecounterselect[0] => ~NO_FANOUT~
+phasecounterselect[1] => ~NO_FANOUT~
+phasecounterselect[2] => ~NO_FANOUT~
+phasecounterselect[3] => ~NO_FANOUT~
+phaseupdown => ~NO_FANOUT~
+phasestep => ~NO_FANOUT~
+configupdate => ~NO_FANOUT~
+fbmimicbidir <> <GND>
+clk[0] <= clk[0].DB_MAX_OUTPUT_PORT_TYPE
+clk[1] <= clk[1].DB_MAX_OUTPUT_PORT_TYPE
+clk[2] <= clk[2].DB_MAX_OUTPUT_PORT_TYPE
+clk[3] <= clk[3].DB_MAX_OUTPUT_PORT_TYPE
+clk[4] <= clk[4].DB_MAX_OUTPUT_PORT_TYPE
+extclk[0] <= <GND>
+extclk[1] <= <GND>
+extclk[2] <= <GND>
+extclk[3] <= <GND>
+clkbad[0] <= <GND>
+clkbad[1] <= <GND>
+enable1 <= <GND>
+enable0 <= <GND>
+activeclock <= <GND>
+clkloss <= <GND>
+locked <= <GND>
+scandataout <= <GND>
+scandone <= <GND>
+sclkout0 <= <GND>
+sclkout1 <= <GND>
+phasedone <= <GND>
+vcooverrange <= <GND>
+vcounderrange <= <GND>
+fbout <= <GND>
+fref <= <GND>
+icdrclk <= <GND>
+
+
+|lab2|pll:pll0|altpll:altpll_component|lab1clk_altpll:auto_generated
+clk[0] <= generic_pll1.O_OUTCLK
+clk[1] <= <GND>
+clk[2] <= <GND>
+clk[3] <= <GND>
+clk[4] <= <GND>
+fbout <= generic_pll1.O_FBOUTCLK
+inclk[0] => generic_pll1.I_REFCLK
+inclk[1] => ~NO_FANOUT~
+locked <= generic_pll1.LOCKED
+
+
+|lab2|colseq:colseq_0
+clk => state[0].CLK
+clk => state[1].CLK
+reset_n => state[0].ACLR
+reset_n => state[1].ACLR
+kpr[0] => ~NO_FANOUT~
+kpr[1] => ~NO_FANOUT~
+kpr[2] => ~NO_FANOUT~
+kpr[3] => ~NO_FANOUT~
+kpc[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+kpc[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+kpc[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+kpc[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2|kpdecode:kpdecode_0
+kpr[0] => Decoder0.IN3
+kpr[0] => Equal0.IN3
+kpr[1] => Decoder0.IN2
+kpr[1] => Equal0.IN2
+kpr[2] => Decoder0.IN1
+kpr[2] => Equal0.IN1
+kpr[3] => Decoder0.IN0
+kpr[3] => Equal0.IN0
+kpc[0] => Decoder1.IN3
+kpc[0] => Mux0.IN19
+kpc[0] => Mux1.IN19
+kpc[0] => Mux2.IN19
+kpc[0] => Mux3.IN19
+kpc[1] => Decoder1.IN2
+kpc[1] => Mux0.IN18
+kpc[1] => Mux1.IN18
+kpc[1] => Mux2.IN18
+kpc[1] => Mux3.IN18
+kpc[2] => Decoder1.IN1
+kpc[2] => Mux0.IN17
+kpc[2] => Mux1.IN17
+kpc[2] => Mux2.IN17
+kpc[2] => Mux3.IN17
+kpc[3] => Decoder1.IN0
+kpc[3] => Mux0.IN16
+kpc[3] => Mux1.IN16
+kpc[3] => Mux2.IN16
+kpc[3] => Mux3.IN16
+num[0] <= num.DB_MAX_OUTPUT_PORT_TYPE
+num[1] <= num.DB_MAX_OUTPUT_PORT_TYPE
+num[2] <= num.DB_MAX_OUTPUT_PORT_TYPE
+num[3] <= num.DB_MAX_OUTPUT_PORT_TYPE
+kphit <= kphit.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2|decode7:decode7_0
+num[0] => Decoder0.IN3
+num[1] => Decoder0.IN2
+num[2] => Decoder0.IN1
+num[3] => Decoder0.IN0
+leds[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+leds[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+leds[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+leds[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+leds[7] <= <VCC>
+
+

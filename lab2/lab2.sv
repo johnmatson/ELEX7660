@@ -16,7 +16,9 @@ module lab2 ( output logic [3:0] kpc,  // column select, active-low
    assign ct = { {3{1'b0}}, kphit } ;
    pll pll0 ( .inclk0(CLOCK_50), .c0(clk) ) ;
 
-   // instantiate your modules here...
+   colseq colseq_0 (.kpr, .kpc, .reset_n, .clk) ;
+   kpdecode kpdecode_0 (.kpr, .kpc, .kphit, .num ) ;
+   decode7 decode7_0 (.num, .leds ) ;
 
 endmodule
 

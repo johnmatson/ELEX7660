@@ -1,0 +1,32 @@
+C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2.sv {1 {vlog -work work -sv -stats=none C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab2
+-- Compiling module pll
+
+Top level modules:
+	lab2
+
+} {} {}} C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab2_kp
+-- Compiling package lab2_tb_sv_unit
+-- Compiling module lab2_tb
+
+Top level modules:
+	lab2_tb
+
+} {} {}} C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/colseq.sv {1 {vlog -work work -sv -stats=none C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/colseq.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module colseq
+
+Top level modules:
+	colseq
+
+} {} {}} C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/decode7.sv {1 {vlog -work work -sv -stats=none C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/decode7.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decode7
+
+Top level modules:
+	decode7
+
+} {} {}}

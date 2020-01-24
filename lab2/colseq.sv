@@ -3,8 +3,9 @@
 // ELEX 7660
 // Lab 2 - Matrix Keypad Input
 
-module colseq ( input logic clk, reset_n, kpr[3:0], // clock, reset & keypad rows
-                output logic kpc[3:0]); // keypad columns
+module colseq ( input logic clk, reset_n, // clock and reset
+				input logic [3:0] kpr, // keypad rows
+                output logic [3:0] kpc); // keypad columns
 
     logic [1:0] state;
 
@@ -19,43 +20,19 @@ module colseq ( input logic clk, reset_n, kpr[3:0], // clock, reset & keypad row
         case (state)
 
             0 : begin
-                kpc = b0111;
-                case (kpr)
-                    b0111 : while (kpr[3] == 0);
-                    b1011 : while (kpr[2] == 0);
-                    b1101 : while (kpr[1] == 0);
-                    b1110 : while (kpr[0] == 0);
-                endcase
+                kpc = 'b0111;
             end
 
             1 : begin
-                kpc = b1011;
-                case (kpr)
-                    b0111 : while (kpr[3] == 0);
-                    b1011 : while (kpr[2] == 0);
-                    b1101 : while (kpr[1] == 0);
-                    b1110 : while (kpr[0] == 0);
-                endcase
+                kpc = 'b1011;
             end
 
             2 : begin
-                kpc = b1101;
-                case (kpr)
-                    b0111 : while (kpr[3] == 0);
-                    b1011 : while (kpr[2] == 0);
-                    b1101 : while (kpr[1] == 0);
-                    b1110 : while (kpr[0] == 0);
-                endcase
+                kpc = 'b1101;
             end
 
             3 : begin
-                kpc = b1110;
-                case (kpr)
-                    b0111 : while (kpr[3] == 0);
-                    b1011 : while (kpr[2] == 0);
-                    b1101 : while (kpr[1] == 0);
-                    b1110 : while (kpr[0] == 0);
-                endcase
+                kpc = 'b1110;
             end
 
         endcase

@@ -1,0 +1,201 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+vcolseq
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1579888525
+!i10b 1
+!s100 1_>Kakf7Ec9zVN<=]UAP[1
+I_0bzDfYc>4V4MVSeh8R>z3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 colseq_sv_unit
+S1
+Z3 dC:/Users/a00991330/Documents/GitHub/ELEX7660/lab2
+w1579887689
+8C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/colseq.sv
+FC:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/colseq.sv
+L0 6
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1579888525.000000
+!s107 C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/colseq.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/colseq.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+vdecode7
+R0
+R1
+!i10b 1
+!s100 ofE?IZbUjN]MzUbR]WjUj2
+IPkJPbdH6TD=KMeZ?k]>4V2
+R2
+!s105 decode7_sv_unit
+S1
+R3
+Z8 w1579883467
+8C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/decode7.sv
+FC:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/decode7.sv
+L0 8
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/decode7.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/decode7.sv|
+!i113 1
+R6
+R7
+vkpdecode
+R0
+R1
+!i10b 1
+!s100 M7UfCoMz;^8DiX[UMkFU:0
+IHlXI3YQH^bNi[iKQz5YKk3
+R2
+!s105 kpdecode_sv_unit
+S1
+R3
+w1579888514
+8C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/kpdecode.sv
+FC:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/kpdecode.sv
+L0 6
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/kpdecode.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/kpdecode.sv|
+!i113 1
+R6
+R7
+vlab2
+R0
+R1
+!i10b 1
+!s100 CifL]g6WO[A[8UhBK0HWD3
+I>Ym9h`R7E`Iezo2o][Hlj3
+R2
+Z9 !s105 lab2_sv_unit
+S1
+R3
+Z10 w1579887283
+Z11 8C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2.sv
+Z12 FC:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2.sv
+L0 5
+R4
+r1
+!s85 0
+31
+R5
+Z13 !s107 C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2.sv|
+Z14 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2.sv|
+!i113 1
+R6
+R7
+vlab2_kp
+R0
+R1
+!i10b 1
+!s100 SADTadlHa2]?WEjamSG9T2
+IQTR;58EeA5=i:jCdFYT4n0
+R2
+Z15 !s105 lab2_tb_sv_unit
+S1
+R3
+R8
+Z16 8C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2_tb.sv
+Z17 FC:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2_tb.sv
+L0 10
+R4
+r1
+!s85 0
+31
+R5
+Z18 !s107 C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2_tb.sv|
+Z19 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2_tb.sv|
+!i113 1
+R6
+R7
+vlab2_tb
+R0
+DXx4 work 15 lab2_tb_sv_unit 0 22 E=IRa:5a0CJZ>jd[LHAS]1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 [_PeZZT;:Mmh^DWSNT03l2
+IOC<8m7edg2hlf;=nRHoH`1
+R15
+S1
+R3
+R8
+R16
+R17
+L0 49
+R4
+R5
+R18
+R19
+!i113 1
+R6
+R7
+Xlab2_tb_sv_unit
+R0
+VE=IRa:5a0CJZ>jd[LHAS]1
+r1
+!s85 0
+31
+!i10b 1
+!s100 _KJc<>gVS2Dh9f:dO@`ha1
+IE=IRa:5a0CJZ>jd[LHAS]1
+!i103 1
+S1
+R3
+R8
+R16
+R17
+L0 30
+R4
+R5
+R18
+R19
+!i113 1
+R6
+R7
+vpll
+R0
+R1
+!i10b 1
+!s100 UWd>R;3XJ:39Vd[T`K3Qb2
+Ih<3ji6gnVY@<6Y`CJ`l4F1
+R2
+R9
+S1
+R3
+R10
+R11
+R12
+L0 32
+R4
+r1
+!s85 0
+31
+R5
+R13
+R14
+!i113 1
+R6
+R7
