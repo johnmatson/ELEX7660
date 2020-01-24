@@ -1,0 +1,202 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/Lab 1
+vbcitid
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1579281086
+!i10b 1
+!s100 EQ8N7J2BRSEmC[WJk==gE3
+I[2jG``UR^C7J4jN2[[ceH0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 bcitid_sv_unit
+S1
+Z3 dF:/Lab 1/lab1
+w1579280872
+8F:\Lab 1\lab1\bcitid.sv
+FF:\Lab 1\lab1\bcitid.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1579281086.000000
+!s107 F:\Lab 1\lab1\bcitid.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|F:\Lab 1\lab1\bcitid.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+vbcitid_tb
+R0
+Z8 !s110 1579281087
+!i10b 1
+!s100 M4;8zWKRUjmf?Q0k]k07z1
+IB2M5BQoOzFj;^cXKizH=>0
+R2
+!s105 bcitid_tb_sv_unit
+S1
+R3
+Z9 w1483920000
+8F:/Lab 1/lab1/bcitid_tb.sv
+FF:/Lab 1/lab1/bcitid_tb.sv
+L0 4
+R4
+r1
+!s85 0
+31
+Z10 !s108 1579281087.000000
+!s107 F:/Lab 1/lab1/bcitid_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|F:/Lab 1/lab1/bcitid_tb.sv|
+!i113 1
+R6
+R7
+vdecode2
+R0
+R8
+!i10b 1
+!s100 MW[=BnJ;4R2WW_:_TTYb:2
+IP[VdLChE?zjm8]=J4MPIO2
+R2
+!s105 decode2_sv_unit
+S1
+R3
+w1579280548
+8F:/Lab 1/lab1/decode2.sv
+FF:/Lab 1/lab1/decode2.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 F:/Lab 1/lab1/decode2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|F:/Lab 1/lab1/decode2.sv|
+!i113 1
+R6
+R7
+vdecode2_tb
+R0
+R8
+!i10b 1
+!s100 A;F[ab`>@D^]:Ybo1VA<^0
+I601Lf2lNNLjTTCkdP7@dG2
+R2
+!s105 decode2_tb_sv_unit
+S1
+R3
+R9
+8F:/Lab 1/lab1/decode2_tb.sv
+FF:/Lab 1/lab1/decode2_tb.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R10
+!s107 F:/Lab 1/lab1/decode2_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|F:/Lab 1/lab1/decode2_tb.sv|
+!i113 1
+R6
+R7
+vdecode7
+R0
+R8
+!i10b 1
+!s100 gnmHIYjKF3zHo]P`]Lgeg2
+ITm9>oCP]8HcZaz7nhj^F92
+R2
+!s105 decode7_sv_unit
+S1
+R3
+w1579281080
+8F:/Lab 1/lab1/decode7.sv
+FF:/Lab 1/lab1/decode7.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 F:/Lab 1/lab1/decode7.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|F:/Lab 1/lab1/decode7.sv|
+!i113 1
+R6
+R7
+vdecode7_tb
+R0
+R8
+!i10b 1
+!s100 lcJ<51i1GJ;iWz8Nf9LA20
+Ie:G9e``LRcV?nXajbKSSk1
+R2
+!s105 decode7_tb_sv_unit
+S1
+R3
+R9
+8F:/Lab 1/lab1/decode7_tb.sv
+FF:/Lab 1/lab1/decode7_tb.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R10
+!s107 F:/Lab 1/lab1/decode7_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|F:/Lab 1/lab1/decode7_tb.sv|
+!i113 1
+R6
+R7
+vlab1
+R0
+R1
+!i10b 1
+!s100 9o7ZH3b<0AZE5Wo@LRiO32
+I9CDMXU3AX6hTi<QBX;D6E0
+R2
+Z11 !s105 lab1_sv_unit
+S1
+R3
+R9
+Z12 8F:/Lab 1/lab1/lab1.sv
+Z13 FF:/Lab 1/lab1/lab1.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+Z14 !s107 F:/Lab 1/lab1/lab1.sv|
+Z15 !s90 -reportprogress|300|-work|work|-sv|-stats=none|F:/Lab 1/lab1/lab1.sv|
+!i113 1
+R6
+R7
+vlab1clk
+R0
+R1
+!i10b 1
+!s100 kA9cmCjo;O118zKa3;nC82
+IZCPSPb5h<O>>U9oNmHZlb0
+R2
+R11
+S1
+R3
+R9
+R12
+R13
+L0 28
+R4
+r1
+!s85 0
+31
+R5
+R14
+R15
+!i113 1
+R6
+R7

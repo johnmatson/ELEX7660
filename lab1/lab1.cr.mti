@@ -1,0 +1,30 @@
+{F:/Lab 1/lab1/lab1.sv} {1 {vlog -work work -sv -stats=none {F:/Lab 1/lab1/lab1.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab1
+-- Compiling module lab1clk
+
+Top level modules:
+	lab1
+
+} {} {}} {F:/Lab 1/lab1/bcitid_tb.sv} {1 {vlog -work work -sv -stats=none {F:/Lab 1/lab1/bcitid_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module bcitid_tb
+
+Top level modules:
+	bcitid_tb
+
+} {} {}} {F:/Lab 1/lab1/decode7_tb.sv} {1 {vlog -work work -sv -stats=none {F:/Lab 1/lab1/decode7_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decode7_tb
+
+Top level modules:
+	decode7_tb
+
+} {} {}} {F:/Lab 1/lab1/decode2_tb.sv} {1 {vlog -work work -sv -stats=none {F:/Lab 1/lab1/decode2_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decode2_tb
+
+Top level modules:
+	decode2_tb
+
+} {} {}}
