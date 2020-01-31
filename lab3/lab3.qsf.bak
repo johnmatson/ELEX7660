@@ -18,7 +18,7 @@
 #
 # Quartus Prime
 # Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-# Date created = 09:35:07  January 31, 2020
+# Date created = 09:23:40  January 31, 2020
 #
 # -------------------------------------------------------------------------- #
 #
@@ -40,7 +40,7 @@ set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSEMA4U23C6
 set_global_assignment -name TOP_LEVEL_ENTITY lab3
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
-set_global_assignment -name PROJECT_CREATION_TIME_DATE "09:35:07  JANUARY 31, 2020"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "09:23:40  JANUARY 31, 2020"
 set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
 set_global_assignment -name SYSTEMVERILOG_FILE lab3.sv
 set_global_assignment -name SYSTEMVERILOG_FILE kpdecode.sv

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab3
-Fri Jan 31 09:35:43 2020
+Fri Jan 31 09:25:16 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Failed - Fri Jan 31 09:35:43 2020           ;
+; Analysis & Synthesis Status ; Failed - Fri Jan 31 09:25:16 2020           ;
 ; Quartus Prime Version       ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name               ; lab3                                        ;
 ; Top-level Entity Name       ; lab3                                        ;
@@ -144,8 +144,8 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 6           ;
-; Maximum allowed            ; 6           ;
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -161,27 +161,27 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Fri Jan 31 09:35:35 2020
+    Info: Processing started: Fri Jan 31 09:24:56 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab3 -c lab3
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 2 design units, including 2 entities, in source file lab3.sv
-    Info (12023): Found entity 1: lab3 File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/lab3.sv Line: 5
-    Info (12023): Found entity 2: pll File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/lab3.sv Line: 70
+    Info (12023): Found entity 1: lab3 File: C:/Users/John/Documents/ELEX7660/lab3/lab3.sv Line: 5
+    Info (12023): Found entity 2: pll File: C:/Users/John/Documents/ELEX7660/lab3/lab3.sv Line: 70
 Info (12021): Found 1 design units, including 1 entities, in source file kpdecode.sv
-    Info (12023): Found entity 1: kpdecode File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/kpdecode.sv Line: 6
+    Info (12023): Found entity 1: kpdecode File: C:/Users/John/Documents/ELEX7660/lab3/kpdecode.sv Line: 6
 Info (12021): Found 1 design units, including 1 entities, in source file decode7.sv
-    Info (12023): Found entity 1: decode7 File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/decode7.sv Line: 8
+    Info (12023): Found entity 1: decode7 File: C:/Users/John/Documents/ELEX7660/lab3/decode7.sv Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file colseq.sv
-    Info (12023): Found entity 1: colseq File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/colseq.sv Line: 6
+    Info (12023): Found entity 1: colseq File: C:/Users/John/Documents/ELEX7660/lab3/colseq.sv Line: 6
 Info (12021): Found 1 design units, including 1 entities, in source file adcinterface.sv
-    Info (12023): Found entity 1: adcinterface File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 1
-Critical Warning (10846): Verilog HDL Instantiation warning at lab3.sv(36): instance has no name File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/lab3.sv Line: 36
+    Info (12023): Found entity 1: adcinterface File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 1
+Critical Warning (10846): Verilog HDL Instantiation warning at lab3.sv(36): instance has no name File: C:/Users/John/Documents/ELEX7660/lab3/lab3.sv Line: 36
 Info (12127): Elaborating entity "lab3" for the top level hierarchy
-Info (12128): Elaborating entity "pll" for hierarchy "pll:pll0" File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/lab3.sv Line: 22
-Info (12128): Elaborating entity "altpll" for hierarchy "pll:pll0|altpll:altpll_component" File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/lab3.sv Line: 94
-Info (12130): Elaborated megafunction instantiation "pll:pll0|altpll:altpll_component" File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/lab3.sv Line: 94
-Info (12133): Instantiated megafunction "pll:pll0|altpll:altpll_component" with the following parameter: File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/lab3.sv Line: 94
+Info (12128): Elaborating entity "pll" for hierarchy "pll:pll0" File: C:/Users/John/Documents/ELEX7660/lab3/lab3.sv Line: 22
+Info (12128): Elaborating entity "altpll" for hierarchy "pll:pll0|altpll:altpll_component" File: C:/Users/John/Documents/ELEX7660/lab3/lab3.sv Line: 94
+Info (12130): Elaborated megafunction instantiation "pll:pll0|altpll:altpll_component" File: C:/Users/John/Documents/ELEX7660/lab3/lab3.sv Line: 94
+Info (12133): Instantiated megafunction "pll:pll0|altpll:altpll_component" with the following parameter: File: C:/Users/John/Documents/ELEX7660/lab3/lab3.sv Line: 94
     Info (12134): Parameter "bandwidth_type" = "AUTO"
     Info (12134): Parameter "clk0_divide_by" = "25000"
     Info (12134): Parameter "clk0_duty_cycle" = "50"
@@ -237,50 +237,50 @@ Info (12133): Instantiated megafunction "pll:pll0|altpll:altpll_component" with 
     Info (12134): Parameter "port_extclk3" = "PORT_UNUSED"
     Info (12134): Parameter "width_clock" = "5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lab1clk_altpll.v
-    Info (12023): Found entity 1: lab1clk_altpll File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/db/lab1clk_altpll.v Line: 29
+    Info (12023): Found entity 1: lab1clk_altpll File: C:/Users/John/Documents/ELEX7660/lab3/db/lab1clk_altpll.v Line: 29
 Info (12128): Elaborating entity "lab1clk_altpll" for hierarchy "pll:pll0|altpll:altpll_component|lab1clk_altpll:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altpll.tdf Line: 897
-Info (12128): Elaborating entity "decode7" for hierarchy "decode7:decode7_0" File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/lab3.sv Line: 29
-Info (12128): Elaborating entity "kpdecode" for hierarchy "kpdecode:kpdecode_0" File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/lab3.sv Line: 30
-Warning (10270): Verilog HDL Case Statement warning at kpdecode.sv(20): incomplete case statement has no default case item File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/kpdecode.sv Line: 20
-Warning (10270): Verilog HDL Case Statement warning at kpdecode.sv(30): incomplete case statement has no default case item File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/kpdecode.sv Line: 30
-Warning (10270): Verilog HDL Case Statement warning at kpdecode.sv(40): incomplete case statement has no default case item File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/kpdecode.sv Line: 40
-Warning (10270): Verilog HDL Case Statement warning at kpdecode.sv(50): incomplete case statement has no default case item File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/kpdecode.sv Line: 50
-Info (12128): Elaborating entity "colseq" for hierarchy "colseq:colseq_0" File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/lab3.sv Line: 31
-Info (12128): Elaborating entity "adcinterface" for hierarchy "adcinterface:comb_11" File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/lab3.sv Line: 36
-Warning (10230): Verilog HDL assignment warning at adcinterface.sv(21): truncated value with size 32 to match size of target (4) File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 21
-Warning (10240): Verilog HDL Always Construct warning at adcinterface.sv(26): inferring latch(es) for variable "channel_select", which holds its previous value in one or more paths through the always construct File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 26
-Warning (10240): Verilog HDL Always Construct warning at adcinterface.sv(26): inferring latch(es) for variable "result", which holds its previous value in one or more paths through the always construct File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 26
-Error (10166): SystemVerilog RTL Coding error at adcinterface.sv(26): always_comb construct does not infer purely combinational logic. File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 26
-Info (10041): Inferred latch for "result[0]" at adcinterface.sv(26) File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 26
-Info (10041): Inferred latch for "result[1]" at adcinterface.sv(26) File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 26
-Info (10041): Inferred latch for "result[2]" at adcinterface.sv(26) File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 26
-Info (10041): Inferred latch for "result[3]" at adcinterface.sv(26) File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 26
-Info (10041): Inferred latch for "result[4]" at adcinterface.sv(26) File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 26
-Info (10041): Inferred latch for "result[5]" at adcinterface.sv(26) File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 26
-Info (10041): Inferred latch for "result[6]" at adcinterface.sv(26) File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 26
-Info (10041): Inferred latch for "result[7]" at adcinterface.sv(26) File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 26
-Info (10041): Inferred latch for "result[8]" at adcinterface.sv(26) File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 26
-Info (10041): Inferred latch for "result[9]" at adcinterface.sv(26) File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 26
-Info (10041): Inferred latch for "result[10]" at adcinterface.sv(26) File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 26
-Info (10041): Inferred latch for "result[11]" at adcinterface.sv(26) File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 26
-Info (10041): Inferred latch for "channel_select[0]" at adcinterface.sv(26) File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 26
-Info (10041): Inferred latch for "channel_select[1]" at adcinterface.sv(26) File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 26
-Info (10041): Inferred latch for "channel_select[2]" at adcinterface.sv(26) File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 26
-Info (10041): Inferred latch for "channel_select[3]" at adcinterface.sv(26) File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 26
-Info (10041): Inferred latch for "channel_select[4]" at adcinterface.sv(26) File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 26
-Info (10041): Inferred latch for "channel_select[5]" at adcinterface.sv(26) File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv Line: 26
-Error (12152): Can't elaborate user hierarchy "adcinterface:comb_11" File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/lab3.sv Line: 36
-Info (144001): Generated suppressed messages file C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/output_files/lab3.map.smsg
+Info (12128): Elaborating entity "decode7" for hierarchy "decode7:decode7_0" File: C:/Users/John/Documents/ELEX7660/lab3/lab3.sv Line: 29
+Info (12128): Elaborating entity "kpdecode" for hierarchy "kpdecode:kpdecode_0" File: C:/Users/John/Documents/ELEX7660/lab3/lab3.sv Line: 30
+Warning (10270): Verilog HDL Case Statement warning at kpdecode.sv(20): incomplete case statement has no default case item File: C:/Users/John/Documents/ELEX7660/lab3/kpdecode.sv Line: 20
+Warning (10270): Verilog HDL Case Statement warning at kpdecode.sv(30): incomplete case statement has no default case item File: C:/Users/John/Documents/ELEX7660/lab3/kpdecode.sv Line: 30
+Warning (10270): Verilog HDL Case Statement warning at kpdecode.sv(40): incomplete case statement has no default case item File: C:/Users/John/Documents/ELEX7660/lab3/kpdecode.sv Line: 40
+Warning (10270): Verilog HDL Case Statement warning at kpdecode.sv(50): incomplete case statement has no default case item File: C:/Users/John/Documents/ELEX7660/lab3/kpdecode.sv Line: 50
+Info (12128): Elaborating entity "colseq" for hierarchy "colseq:colseq_0" File: C:/Users/John/Documents/ELEX7660/lab3/lab3.sv Line: 31
+Info (12128): Elaborating entity "adcinterface" for hierarchy "adcinterface:comb_11" File: C:/Users/John/Documents/ELEX7660/lab3/lab3.sv Line: 36
+Warning (10230): Verilog HDL assignment warning at adcinterface.sv(21): truncated value with size 32 to match size of target (4) File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 21
+Warning (10240): Verilog HDL Always Construct warning at adcinterface.sv(26): inferring latch(es) for variable "channel_select", which holds its previous value in one or more paths through the always construct File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 26
+Warning (10240): Verilog HDL Always Construct warning at adcinterface.sv(26): inferring latch(es) for variable "result", which holds its previous value in one or more paths through the always construct File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 26
+Error (10166): SystemVerilog RTL Coding error at adcinterface.sv(26): always_comb construct does not infer purely combinational logic. File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 26
+Info (10041): Inferred latch for "result[0]" at adcinterface.sv(26) File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 26
+Info (10041): Inferred latch for "result[1]" at adcinterface.sv(26) File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 26
+Info (10041): Inferred latch for "result[2]" at adcinterface.sv(26) File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 26
+Info (10041): Inferred latch for "result[3]" at adcinterface.sv(26) File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 26
+Info (10041): Inferred latch for "result[4]" at adcinterface.sv(26) File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 26
+Info (10041): Inferred latch for "result[5]" at adcinterface.sv(26) File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 26
+Info (10041): Inferred latch for "result[6]" at adcinterface.sv(26) File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 26
+Info (10041): Inferred latch for "result[7]" at adcinterface.sv(26) File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 26
+Info (10041): Inferred latch for "result[8]" at adcinterface.sv(26) File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 26
+Info (10041): Inferred latch for "result[9]" at adcinterface.sv(26) File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 26
+Info (10041): Inferred latch for "result[10]" at adcinterface.sv(26) File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 26
+Info (10041): Inferred latch for "result[11]" at adcinterface.sv(26) File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 26
+Info (10041): Inferred latch for "channel_select[0]" at adcinterface.sv(26) File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 26
+Info (10041): Inferred latch for "channel_select[1]" at adcinterface.sv(26) File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 26
+Info (10041): Inferred latch for "channel_select[2]" at adcinterface.sv(26) File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 26
+Info (10041): Inferred latch for "channel_select[3]" at adcinterface.sv(26) File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 26
+Info (10041): Inferred latch for "channel_select[4]" at adcinterface.sv(26) File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 26
+Info (10041): Inferred latch for "channel_select[5]" at adcinterface.sv(26) File: C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv Line: 26
+Error (12152): Can't elaborate user hierarchy "adcinterface:comb_11" File: C:/Users/John/Documents/ELEX7660/lab3/lab3.sv Line: 36
+Info (144001): Generated suppressed messages file C:/Users/John/Documents/ELEX7660/lab3/output_files/lab3.map.smsg
 Error: Quartus Prime Analysis & Synthesis was unsuccessful. 2 errors, 9 warnings
-    Error: Peak virtual memory: 4805 megabytes
-    Error: Processing ended: Fri Jan 31 09:35:43 2020
-    Error: Elapsed time: 00:00:08
-    Error: Total CPU time (on all processors): 00:00:17
+    Error: Peak virtual memory: 4804 megabytes
+    Error: Processing ended: Fri Jan 31 09:25:16 2020
+    Error: Elapsed time: 00:00:20
+    Error: Total CPU time (on all processors): 00:00:44
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/output_files/lab3.map.smsg.
+The suppressed messages can be found in C:/Users/John/Documents/ELEX7660/lab3/output_files/lab3.map.smsg.
 
 
