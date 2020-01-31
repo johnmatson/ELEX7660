@@ -9,8 +9,8 @@ module adcinterface(
 );
 
     logic [3:0] state;
-    logic [3:0] channel = {1, chan[0], chan[2], chan[1], 1, 0};
-    logic [3:0] channel_select;
+    logic [5:0] channel;
+    logic [5:0] channel_select;
     logic [11:0] data;
 
     // state registers
@@ -22,6 +22,8 @@ module adcinterface(
     end
 
     always_comb begin
+
+        channel = {1, chan[0], chan[2], chan[1], 1, 0};
 
         case(state)
             0 : begin
@@ -92,13 +94,13 @@ module adcinterface(
             end
         endcase
     end
-
+/*
     // adc data read
     always_ff @ (posedge clk) begin
         if ((state >= 3) && (state <= 14))
             data[14-state] <= ADC_SDO; // CHECK MATH
     end
-
+*/
     // ADC_SCK clock assign
     assign ADC_SCK = ((state >= 2) && ((state <= 13))) ? clk : 1'b0;
 

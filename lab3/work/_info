@@ -10,15 +10,15 @@ cModel Technology
 dC:/intelFPGA_lite/18.1
 vadcinterface
 Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z1 !s110 1580451022
+Z1 !s110 1580453220
 !i10b 1
-!s100 o;;UTcCJLzAc3lCMbJZVK2
-I@WDO0dJ:nEeaR]<Uk9:jH3
+!s100 in>9PL:8<8bm87e`U30n^0
+I^>`IT4_NXlUYO3[=6ICES3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 !s105 adcinterface_sv_unit
 S1
 Z3 dC:/Users/John/Documents/ELEX7660/lab3
-w1580451015
+w1580453212
 8C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv
 FC:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv
 L0 1
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1580451022.000000
+Z5 !s108 1580453220.000000
 !s107 C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv|
 !i113 1
@@ -130,7 +130,7 @@ R6
 R7
 vlab3
 R0
-R1
+!s110 1580453219
 !i10b 1
 !s100 5T6na8^kjjDMnRfm4JLAT3
 IV`5j9B?PZB;VQziCchHMU0
@@ -146,7 +146,7 @@ R4
 r1
 !s85 0
 31
-Z12 !s108 1580451021.000000
+Z12 !s108 1580453219.000000
 Z13 !s107 C:/Users/John/Documents/ELEX7660/lab3/lab3.sv|
 Z14 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/John/Documents/ELEX7660/lab3/lab3.sv|
 !i113 1
