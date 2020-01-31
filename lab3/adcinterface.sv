@@ -8,10 +8,10 @@ module adcinterface(
     input logic ADC_SDO
 );
 
-    logic [3:0] state;
-    logic [5:0] channel;
-    logic [5:0] channel_select;
-    logic [11:0] data;
+    logic [3:0] state; // state counter
+    logic [5:0] channel; // channel (updated continuously)
+    logic [5:0] channel_select; // channel (updated once per cycle
+    logic [11:0] data; // temporary ADC data
 
     // state registers
     always_ff @ (negedge clk, negedge reset_n) begin
@@ -23,8 +23,10 @@ module adcinterface(
 
     always_comb begin
 
+        // channel read
         channel = {1'b1, chan[0], chan[2], chan[1], 1'b1, 1'b0};
 
+        // state logic for ADC_CONVST & ADC_SDI
         case(state)
             0 : begin
                 ADC_CONVST = 1;
@@ -103,6 +105,7 @@ module adcinterface(
             data[13-state] <= ADC_SDO; // CHECK MATH
     end
 	
+    // channel load & data load - once per cycle
     always_ff @ (negedge clk) begin
         if (state == 1) begin
             channel_select = channel;
