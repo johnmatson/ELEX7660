@@ -23,7 +23,7 @@ module adcinterface(
 
     always_comb begin
 
-        channel = {1, chan[0], chan[2], chan[1], 1, 0};
+        channel = {1'b1, chan[0], chan[2], chan[1], 1'b1, 1'b0};
 
         case(state)
             0 : begin
