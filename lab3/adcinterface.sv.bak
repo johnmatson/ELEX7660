@@ -29,6 +29,8 @@ module adcinterface(
             0 : begin
                 ADC_CONVST = 1;
                 ADC_SDI = 0;
+                channel_select = channel;
+                result = data;
             end
             1 : begin
                 ADC_CONVST = 0;
@@ -90,9 +92,11 @@ module adcinterface(
                 ADC_CONVST = 0;
                 ADC_SDI = 0;
             end
-				default : begin
+			default : begin
                 ADC_CONVST = 0;
                 ADC_SDI = 0;
+                channel_select = channel;
+                result = data;
 			end
         endcase
     end
@@ -101,13 +105,6 @@ module adcinterface(
     always_ff @ (posedge clk) begin
         if ((state >= 2) && (state <= 13))
             data[13-state] <= ADC_SDO; // CHECK MATH
-    end
-	
-    always_ff @ (negedge clk) begin
-        if (state == 1) begin
-            channel_select = channel;
-            result = data;
-		end
     end
 
     // ADC_SCK clock assign

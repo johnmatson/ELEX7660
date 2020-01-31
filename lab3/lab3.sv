@@ -38,15 +38,22 @@ module lab3 (  output logic [3:0] kpc,  // column select, active-low
 	// Logic to output the three hex digits of the ADC result to the 4 digit seven segment display
 
 	// cycle through the three hex digits in the 12-bit ADC result displaying one at a time
-    always_ff @(posedge clk) 
+    always_ff @(posedge clk) begin
 	if (digit >= 2)
 		digit <= 0;
 	else
 		digit <= digit + 1'b1 ;
 
     // enable the 7-segment module for the selected digit	
-    assign ct =  1'b1 << digit;
+    // assign ct =  1'b1 << digit;
 
+	if (kpr == 15)
+		ct = 4'b0000;
+	else
+		ct =  1'b1 << digit;
+		
+	end
+	
     // select the bits from the 12-bit ADC result for the selected digit	
 	always_comb
 	case( digit )

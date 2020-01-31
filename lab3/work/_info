@@ -10,121 +10,121 @@ cModel Technology
 dC:/intelFPGA_lite/18.1
 vadcinterface
 Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z1 !s110 1580490367
+Z1 !s110 1580493824
 !i10b 1
-!s100 BUOi^AXZ]MNMe_SOEgCXj2
-I]EEIXX_ToNgl?Nnng82XZ3
+!s100 LD[<[OBJ@nYK;BW_e7S>f0
+I@]fHE4WCA?S4Q?1b[40[;0
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 !s105 adcinterface_sv_unit
 S1
-Z3 dC:/Users/John/Documents/ELEX7660/lab3
-w1580490360
-8C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv
-FC:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv
+Z3 dC:/Users/a00991330/Documents/GitHub/ELEX7660/lab3
+w1580493801
+8C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv
+FC:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv
 L0 1
 Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1580490367.000000
-!s107 C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/John/Documents/ELEX7660/lab3/adcinterface.sv|
+Z5 !s108 1580493824.000000
+!s107 C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface.sv|
 !i113 1
 Z6 o-work work -sv
 Z7 tCvgOpt 0
 vadcinterface_tb
 R0
-Z8 !s110 1580490368
+R1
 !i10b 1
 !s100 BFC51_nOU[]9dZCUQW82S0
-I1BmBR5l@JogS7T<m`:6S60
+Il01LW6oA8hNbI_kMY0QBa0
 R2
 !s105 adcinterface_tb_sv_unit
 S1
 R3
-Z9 w1580449436
-8C:/Users/John/Documents/ELEX7660/lab3/adcinterface_tb.sv
-FC:/Users/John/Documents/ELEX7660/lab3/adcinterface_tb.sv
+Z8 w1580491878
+8C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface_tb.sv
+FC:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface_tb.sv
 L0 5
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/John/Documents/ELEX7660/lab3/adcinterface_tb.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/John/Documents/ELEX7660/lab3/adcinterface_tb.sv|
+!s107 C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/adcinterface_tb.sv|
 !i113 1
 R6
 R7
 vcolseq
 R0
-R8
+R1
 !i10b 1
 !s100 1_>Kakf7Ec9zVN<=]UAP[1
-Inh_K0:OQgT:6`NQaU4WdD0
+I<AnmCQon71BdHl5FKzSmU3
 R2
 !s105 colseq_sv_unit
 S1
 R3
-R9
-8C:/Users/John/Documents/ELEX7660/lab3/colseq.sv
-FC:/Users/John/Documents/ELEX7660/lab3/colseq.sv
+R8
+8C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/colseq.sv
+FC:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/colseq.sv
 L0 6
 R4
 r1
 !s85 0
 31
-Z10 !s108 1580490368.000000
-!s107 C:/Users/John/Documents/ELEX7660/lab3/colseq.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/John/Documents/ELEX7660/lab3/colseq.sv|
+R5
+!s107 C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/colseq.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/colseq.sv|
 !i113 1
 R6
 R7
 vdecode7
 R0
-R8
+R1
 !i10b 1
 !s100 ofE?IZbUjN]MzUbR]WjUj2
-IbVF`ASO_?U@kNkZ?^2R@K2
+I=E5^D2TmGQXd0]2hO:?L=0
 R2
 !s105 decode7_sv_unit
 S1
 R3
-w1580449435
-8C:/Users/John/Documents/ELEX7660/lab3/decode7.sv
-FC:/Users/John/Documents/ELEX7660/lab3/decode7.sv
+R8
+8C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/decode7.sv
+FC:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/decode7.sv
 L0 8
 R4
 r1
 !s85 0
 31
-R10
-!s107 C:/Users/John/Documents/ELEX7660/lab3/decode7.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/John/Documents/ELEX7660/lab3/decode7.sv|
+R5
+!s107 C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/decode7.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/decode7.sv|
 !i113 1
 R6
 R7
 vkpdecode
 R0
-R8
+R1
 !i10b 1
 !s100 `nX`hL>gaPGV<G4Kh=U?n1
-ILhc?ecWSH>j0WZ26WhAR=3
+IKSdZ:RN1P_PFh?VMk0KfE0
 R2
 !s105 kpdecode_sv_unit
 S1
 R3
-R9
-8C:/Users/John/Documents/ELEX7660/lab3/kpdecode.sv
-FC:/Users/John/Documents/ELEX7660/lab3/kpdecode.sv
+R8
+8C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/kpdecode.sv
+FC:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/kpdecode.sv
 L0 6
 R4
 r1
 !s85 0
 31
-R10
-!s107 C:/Users/John/Documents/ELEX7660/lab3/kpdecode.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/John/Documents/ELEX7660/lab3/kpdecode.sv|
+R5
+!s107 C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/kpdecode.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/kpdecode.sv|
 !i113 1
 R6
 R7
@@ -133,22 +133,22 @@ R0
 R1
 !i10b 1
 !s100 5T6na8^kjjDMnRfm4JLAT3
-IV`5j9B?PZB;VQziCchHMU0
+IHjU1?OC<?0M^WY;4_6Mod1
 R2
-Z11 !s105 lab3_sv_unit
+Z9 !s105 lab3_sv_unit
 S1
 R3
-R9
-Z12 8C:/Users/John/Documents/ELEX7660/lab3/lab3.sv
-Z13 FC:/Users/John/Documents/ELEX7660/lab3/lab3.sv
+R8
+Z10 8C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/lab3.sv
+Z11 FC:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/lab3.sv
 L0 5
 R4
 r1
 !s85 0
 31
 R5
-Z14 !s107 C:/Users/John/Documents/ELEX7660/lab3/lab3.sv|
-Z15 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/John/Documents/ELEX7660/lab3/lab3.sv|
+Z12 !s107 C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/lab3.sv|
+Z13 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/a00991330/Documents/GitHub/ELEX7660/lab3/lab3.sv|
 !i113 1
 R6
 R7
@@ -157,22 +157,22 @@ R0
 R1
 !i10b 1
 !s100 37IF>dKFNh>BLAkcAkeVj3
-IlQ@j>XKHZmFbL^hiXjNTa0
+I`]EciJo=C2_1k08?;<?fa0
 R2
-R11
+R9
 S1
 R3
-R9
-R12
-R13
+R8
+R10
+R11
 L0 70
 R4
 r1
 !s85 0
 31
 R5
-R14
-R15
+R12
+R13
 !i113 1
 R6
 R7
