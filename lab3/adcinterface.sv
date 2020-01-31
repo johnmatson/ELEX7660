@@ -90,12 +90,13 @@ module adcinterface(
                 ADC_CONVST = 0;
                 ADC_SDI = 0;
             end
+        endcase
     end
 
     // adc data read
     always_ff @ (posedge clk) begin
-        if ((state >= 3) && ((state <= 14))
-            data[14-state] = ADC_SDO; // CHECK MATH
+        if ((state >= 3) && (state <= 14))
+            data[14-state] <= ADC_SDO; // CHECK MATH
     end
 
     // ADC_SCK clock assign
