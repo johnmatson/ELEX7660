@@ -1,0 +1,9 @@
+	component lab4 is
+		port (
+			clk_clk       : in  std_logic                    := 'X'; -- clk
+			led_export    : out std_logic_vector(7 downto 0);        -- export
+			reset_reset_n : in  std_logic                    := 'X'; -- reset_n
+			spkr_export   : out std_logic                            -- export
+		);
+	end component lab4;
+

@@ -15,7 +15,7 @@ module tonegen
       freq <= writedata;
   end
 
-  always_ff @ (posedge clk, reset) begin
+  always_ff @ (posedge clk, posedge reset) begin
     if (reset) begin
       count <= 0;
       spkr <= 0;

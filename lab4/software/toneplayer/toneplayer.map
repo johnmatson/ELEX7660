@@ -1,0 +1,1109 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+                              obj/default/toneplayer.o (__mulsi3)
+../toneplayer_bsp/\libhal_bsp.a(alt_load.o)
+                              ../toneplayer_bsp//obj/HAL/src/crt0.o (alt_load)
+../toneplayer_bsp/\libhal_bsp.a(alt_main.o)
+                              ../toneplayer_bsp//obj/HAL/src/crt0.o (alt_main)
+../toneplayer_bsp/\libhal_bsp.a(alt_usleep.o)
+                              obj/default/toneplayer.o (usleep)
+../toneplayer_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_read_fd)
+../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_init)
+../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_ioctl)
+../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_read)
+../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_write)
+../toneplayer_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_avalon_timer_sc_init)
+../toneplayer_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (alt_alarm_start)
+../toneplayer_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_usleep.o) (alt_busy_sleep)
+../toneplayer_bsp/\libhal_bsp.a(alt_close.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_main.o) (close)
+../toneplayer_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+../toneplayer_bsp/\libhal_bsp.a(alt_dev.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_list)
+../toneplayer_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+../toneplayer_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_main.o) (_do_ctors)
+../toneplayer_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_main.o) (_do_dtors)
+../toneplayer_bsp/\libhal_bsp.a(alt_errno.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_close.o) (alt_errno)
+../toneplayer_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+../toneplayer_bsp/\libhal_bsp.a(alt_iic.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (alt_ic_isr_register)
+../toneplayer_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+../toneplayer_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_main.o) (alt_io_redirect)
+../toneplayer_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+../toneplayer_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq)
+../toneplayer_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_iic.o) (alt_irq_active)
+../toneplayer_bsp/\libhal_bsp.a(alt_open.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_io_redirect.o) (open)
+../toneplayer_bsp/\libhal_bsp.a(alt_release_fd.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_close.o) (alt_release_fd)
+../toneplayer_bsp/\libhal_bsp.a(alt_tick.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (_alt_tick_rate)
+../toneplayer_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+../toneplayer_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+../toneplayer_bsp/\libhal_bsp.a(alt_find_dev.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_open.o) (alt_find_dev)
+../toneplayer_bsp/\libhal_bsp.a(alt_find_file.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_open.o) (alt_find_file)
+../toneplayer_bsp/\libhal_bsp.a(alt_get_fd.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_open.o) (alt_get_fd)
+../toneplayer_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_exception_entry.o) (alt_instruction_exception_entry)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_main.o) (atexit)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_main.o) (exit)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o) (_global_impure_ptr)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_close.o) (errno)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_find_dev.o) (memcmp)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o) (memcpy)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_find_dev.o) (strlen)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o) (__register_exitproc)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o) (__call_exitprocs)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                              ../toneplayer_bsp/\libhal_bsp.a(alt_busy_sleep.o) (__udivsi3)
+../toneplayer_bsp/\libhal_bsp.a(alt_exit.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             ../toneplayer_bsp/\libhal_bsp.a(alt_irq_handler.o)
+errno               0x4               c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000008000 0x0000000000000020
+memory           0x0000000000008020 0x0000000000007fe0
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ../toneplayer_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/toneplayer.o
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libstdc++.a
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a
+START GROUP
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a
+LOAD ../toneplayer_bsp/\libhal_bsp.a
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+END GROUP
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a
+                0x0000000000008000                __alt_mem_memory = 0x8000
+
+.entry          0x0000000000008000       0x20
+ *(.entry)
+ .entry         0x0000000000008000       0x20 ../toneplayer_bsp//obj/HAL/src/crt0.o
+                0x0000000000008000                __reset
+
+.exceptions     0x0000000000008020      0x210
+                0x0000000000008020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x0000000000008020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x0000000000008020        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                0x0000000000008020                alt_irq_entry
+ .exceptions.entry.label
+                0x0000000000008020        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                0x0000000000008020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x0000000000008020       0x54 ../toneplayer_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x0000000000008074       0x10 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x0000000000008084        0x4 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x0000000000008088        0x4 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x000000000000808c        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x000000000000808c        0x8 ../toneplayer_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x0000000000008094       0x14 ../toneplayer_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x00000000000080a8        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x00000000000080a8        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x00000000000080a8       0x54 ../toneplayer_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x00000000000080fc       0xd4 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x00000000000080fc                alt_irq_handler
+ .exceptions    0x00000000000081d0       0x60 ../toneplayer_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x00000000000081d0                alt_instruction_exception_entry
+                0x0000000000008230                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x0000000000008020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x0000000000008230     0x2768
+                [!provide]                        PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000008230       0x3c ../toneplayer_bsp//obj/HAL/src/crt0.o
+                0x0000000000008230                _start
+ .text          0x000000000000826c       0xb0 obj/default/toneplayer.o
+                0x000000000000826c                main
+ .text          0x000000000000831c       0x28 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+                0x000000000000831c                __mulsi3
+ .text          0x0000000000008344       0xec ../toneplayer_bsp/\libhal_bsp.a(alt_load.o)
+                0x00000000000083ac                alt_load
+ .text          0x0000000000008430       0x7c ../toneplayer_bsp/\libhal_bsp.a(alt_main.o)
+                0x0000000000008430                alt_main
+ .text          0x00000000000084ac       0x30 ../toneplayer_bsp/\libhal_bsp.a(alt_usleep.o)
+                0x00000000000084ac                usleep
+ .text          0x00000000000084dc       0xcc ../toneplayer_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x0000000000008510                alt_irq_init
+                0x0000000000008548                alt_sys_init
+ .text          0x00000000000085a8      0x164 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x00000000000085a8                altera_avalon_jtag_uart_read_fd
+                0x0000000000008608                altera_avalon_jtag_uart_write_fd
+                0x0000000000008668                altera_avalon_jtag_uart_close_fd
+                0x00000000000086b8                altera_avalon_jtag_uart_ioctl_fd
+ .text          0x000000000000870c      0x3d4 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                0x000000000000870c                altera_avalon_jtag_uart_init
+                0x0000000000008a78                altera_avalon_jtag_uart_close
+ .text          0x0000000000008ae0       0xf0 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                0x0000000000008ae0                altera_avalon_jtag_uart_ioctl
+ .text          0x0000000000008bd0      0x21c ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x0000000000008bd0                altera_avalon_jtag_uart_read
+ .text          0x0000000000008dec      0x224 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x0000000000008dec                altera_avalon_jtag_uart_write
+ .text          0x0000000000009010       0xf4 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+                0x0000000000009088                alt_avalon_timer_sc_init
+ .text          0x0000000000009104      0x12c ../toneplayer_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                0x0000000000009104                alt_alarm_start
+ .text          0x0000000000009230      0x158 ../toneplayer_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x0000000000009230                alt_busy_sleep
+ .text          0x0000000000009388      0x114 ../toneplayer_bsp/\libhal_bsp.a(alt_close.o)
+                0x00000000000093c4                close
+ .text          0x000000000000949c       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x000000000000949c                alt_dcache_flush_all
+ .text          0x00000000000094bc       0x2c ../toneplayer_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x00000000000094e8       0xe0 ../toneplayer_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x0000000000009524                alt_dev_llist_insert
+ .text          0x00000000000095c8       0x60 ../toneplayer_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                0x00000000000095c8                _do_ctors
+ .text          0x0000000000009628       0x60 ../toneplayer_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                0x0000000000009628                _do_dtors
+ .text          0x0000000000009688        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x0000000000009688       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x0000000000009688                alt_icache_flush_all
+ .text          0x00000000000096a8      0x1b0 ../toneplayer_bsp/\libhal_bsp.a(alt_iic.o)
+                0x00000000000096a8                alt_ic_isr_register
+                0x00000000000096f8                alt_ic_irq_enable
+                0x0000000000009780                alt_ic_irq_disable
+                0x000000000000980c                alt_ic_irq_enabled
+ .text          0x0000000000009858       0xf0 ../toneplayer_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                0x0000000000009858                alt_iic_isr_register
+ .text          0x0000000000009948      0x160 ../toneplayer_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                0x0000000000009a2c                alt_io_redirect
+ .text          0x0000000000009aa8        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .text          0x0000000000009aa8        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .text          0x0000000000009aa8        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .text          0x0000000000009aa8      0x284 ../toneplayer_bsp/\libhal_bsp.a(alt_open.o)
+                0x0000000000009bd0                open
+ .text          0x0000000000009d2c       0x84 ../toneplayer_bsp/\libhal_bsp.a(alt_release_fd.o)
+                0x0000000000009d2c                alt_release_fd
+ .text          0x0000000000009db0      0x1a4 ../toneplayer_bsp/\libhal_bsp.a(alt_tick.o)
+                0x0000000000009db0                alt_alarm_stop
+                0x0000000000009e4c                alt_tick
+ .text          0x0000000000009f54       0x24 ../toneplayer_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x0000000000009f54                altera_nios2_gen2_irq_init
+ .text          0x0000000000009f78        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .text          0x0000000000009f78       0x90 ../toneplayer_bsp/\libhal_bsp.a(alt_find_dev.o)
+                0x0000000000009f78                alt_find_dev
+ .text          0x000000000000a008      0x108 ../toneplayer_bsp/\libhal_bsp.a(alt_find_file.o)
+                0x000000000000a008                alt_find_file
+ .text          0x000000000000a110       0xc4 ../toneplayer_bsp/\libhal_bsp.a(alt_get_fd.o)
+                0x000000000000a110                alt_get_fd
+ .text          0x000000000000a1d4       0x9c ../toneplayer_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x000000000000a1d4                alt_exception_cause_generated_bad_addr
+ .text          0x000000000000a270        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .text.atexit   0x000000000000a270       0x14 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+                0x000000000000a270                atexit
+ .text          0x000000000000a284        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .text.exit     0x000000000000a284       0x38 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+                0x000000000000a284                exit
+ .text          0x000000000000a2bc        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .text          0x000000000000a2bc        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .text          0x000000000000a2bc        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .text.memcmp   0x000000000000a2bc       0x7c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+                0x000000000000a2bc                memcmp
+ .text          0x000000000000a338        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .text.memcpy   0x000000000000a338      0x148 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+                0x000000000000a338                memcpy
+ .text          0x000000000000a480        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .text.strlen   0x000000000000a480       0x98 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                0x000000000000a480                strlen
+ .text          0x000000000000a518        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .text.__register_exitproc
+                0x000000000000a518      0x118 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+                0x000000000000a518                __register_exitproc
+ .text          0x000000000000a630        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x000000000000a630      0x180 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+                0x000000000000a630                __call_exitprocs
+ .text          0x000000000000a7b0      0x1b4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                0x000000000000a7b0                __divsi3
+                0x000000000000a834                __modsi3
+                0x000000000000a8a8                __udivsi3
+                0x000000000000a90c                __umodsi3
+ .text          0x000000000000a964       0x34 ../toneplayer_bsp/\libhal_bsp.a(alt_exit.o)
+                0x000000000000a964                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x000000000000a998                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                0x000000000000a998                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                0x000000000000a998                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x000000000000a998                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x000000000000a998                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x000000000000a998                . = ALIGN (0x4)
+
+.rodata         0x000000000000a998       0x30
+                0x000000000000a998                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x000000000000a998                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x000000000000a998        0xf ../toneplayer_bsp/\libhal_bsp.a(alt_main.o)
+ *fill*         0x000000000000a9a7        0x1 
+ .rodata        0x000000000000a9a8        0xf ../toneplayer_bsp/\libhal_bsp.a(alt_sys_init.o)
+ *fill*         0x000000000000a9b7        0x1 
+ .rodata        0x000000000000a9b8        0xa ../toneplayer_bsp/\libhal_bsp.a(alt_dev.o)
+ *fill*         0x000000000000a9c2        0x2 
+ .rodata.str1.4
+                0x000000000000a9c4        0x4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                                          0x2 (size before relaxing)
+ *(.rodata1)
+                0x000000000000a9c8                . = ALIGN (0x4)
+                0x000000000000a9c8                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x000000000000a998                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x000000000000a9c8     0x1898 load address 0x000000000000c260
+                0x000000000000a9c8                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x000000000000a9c8                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000000a9c8        0x0 ../toneplayer_bsp//obj/HAL/src/crt0.o
+ .data          0x000000000000a9c8      0x240 obj/default/toneplayer.o
+                0x000000000000a9c8                freq
+                0x000000000000aae8                duration
+ .data          0x000000000000ac08        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .data          0x000000000000ac08        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x000000000000ac08        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x000000000000ac08        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_usleep.o)
+ .data          0x000000000000ac08     0x1060 ../toneplayer_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x000000000000bc68        0x0 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x000000000000bc68        0x0 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .data          0x000000000000bc68        0x0 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .data          0x000000000000bc68        0x0 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x000000000000bc68        0x0 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x000000000000bc68        0x0 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .data          0x000000000000bc68        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .data          0x000000000000bc68        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .data          0x000000000000bc68        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_close.o)
+ .data          0x000000000000bc68        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x000000000000bc68      0x1a8 ../toneplayer_bsp/\libhal_bsp.a(alt_dev.o)
+                0x000000000000bc68                alt_dev_null
+                0x000000000000bc90                alt_fd_list
+ .data          0x000000000000be10        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x000000000000be10        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .data          0x000000000000be10        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .data          0x000000000000be10        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x000000000000be10        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x000000000000be10        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_iic.o)
+ .data          0x000000000000be10        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x000000000000be10        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .data          0x000000000000be10        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .data          0x000000000000be10        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .data          0x000000000000be10        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .data          0x000000000000be10        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_open.o)
+ .data          0x000000000000be10        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .data          0x000000000000be10        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_tick.o)
+ .data          0x000000000000be10        0x0 ../toneplayer_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x000000000000be10        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .data          0x000000000000be10        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .data          0x000000000000be10        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_find_file.o)
+ .data          0x000000000000be10        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .data          0x000000000000be10        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .data          0x000000000000be10        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .data          0x000000000000be10        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .data          0x000000000000be10        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .data.impure_data
+                0x000000000000be10      0x424 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .data          0x000000000000c234        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .data          0x000000000000c234        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .data          0x000000000000c234        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .data          0x000000000000c234        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .data          0x000000000000c234        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .data          0x000000000000c234        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .data          0x000000000000c234        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .data          0x000000000000c234        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_exit.o)
+                0x0000000000014234                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x000000000000c234       0x14 ../toneplayer_bsp/\libhal_bsp.a(alt_dev.o)
+                0x000000000000c234                alt_fs_list
+                0x000000000000c23c                alt_dev_list
+                0x000000000000c244                alt_max_fd
+ .sdata         0x000000000000c248        0x4 ../toneplayer_bsp/\libhal_bsp.a(alt_errno.o)
+                0x000000000000c248                alt_errno
+ .sdata         0x000000000000c24c        0x4 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x000000000000c24c                alt_priority_mask
+ .sdata         0x000000000000c250        0x8 ../toneplayer_bsp/\libhal_bsp.a(alt_tick.o)
+                0x000000000000c250                alt_alarm_list
+ .sdata._global_impure_ptr
+                0x000000000000c258        0x4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                0x000000000000c258                _global_impure_ptr
+ .sdata._impure_ptr
+                0x000000000000c25c        0x4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                0x000000000000c25c                _impure_ptr
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x000000000000c260                . = ALIGN (0x4)
+                0x000000000000c260                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata, ABSOLUTE (.))
+                0x000000000000c260                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x000000000000c260                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x000000000000daf8      0x120
+                0x000000000000daf8                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x000000000000daf8        0xc ../toneplayer_bsp/\libhal_bsp.a(alt_main.o)
+                0x000000000000daf8                alt_argc
+                0x000000000000dafc                alt_argv
+                0x000000000000db00                alt_envp
+ .sbss          0x000000000000db04        0x4 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x000000000000db04                alt_irq_active
+ .sbss          0x000000000000db08        0x8 ../toneplayer_bsp/\libhal_bsp.a(alt_tick.o)
+                0x000000000000db08                _alt_tick_rate
+                0x000000000000db0c                _alt_nticks
+ .sbss          0x000000000000db10        0x4 ../toneplayer_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x000000000000db10                alt_instruction_exception_handler
+ .sbss          0x000000000000db14        0x4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                0x000000000000db14                errno
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp//obj/HAL/src/crt0.o
+ .bss           0x000000000000db18        0x0 obj/default/toneplayer.o
+ .bss           0x000000000000db18        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_usleep.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_close.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_iic.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_open.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_tick.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_find_file.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .bss           0x000000000000db18        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .bss           0x000000000000db18        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .bss           0x000000000000db18        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .bss           0x000000000000db18        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .bss           0x000000000000db18        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .bss           0x000000000000db18        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .bss           0x000000000000db18        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .bss           0x000000000000db18        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .bss           0x000000000000db18        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .bss           0x000000000000db18        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .bss           0x000000000000db18        0x0 ../toneplayer_bsp/\libhal_bsp.a(alt_exit.o)
+ *(COMMON)
+ COMMON         0x000000000000db18      0x100 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x000000000000db18                alt_irq
+                0x000000000000dc18                . = ALIGN (0x4)
+                0x000000000000dc18                __bss_end = ABSOLUTE (.)
+
+.memory         0x000000000000dc18        0x0
+                [!provide]                        PROVIDE (_alt_partition_memory_start, ABSOLUTE (.))
+ *(.memory .memory. memory.*)
+                0x000000000000dc18                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_memory_end, ABSOLUTE (.))
+                0x000000000000dc18                _end = ABSOLUTE (.)
+                0x000000000000dc18                end = ABSOLUTE (.)
+                0x000000000000dc18                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_memory_load_addr, LOADADDR (.memory))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x23
+ *(.comment)
+ .comment       0x0000000000000000       0x23 obj/default/toneplayer.o
+                                         0x24 (size before relaxing)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_usleep.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_close.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_dev.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_iic.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_open.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_tick.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_find_file.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .comment       0x0000000000000023       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x638
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 ../toneplayer_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x20 obj/default/toneplayer.o
+ .debug_aranges
+                0x0000000000000048       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_aranges
+                0x0000000000000068       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x0000000000000088       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x00000000000000a8       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000000000000e8       0x20 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_aranges
+                0x0000000000000108       0x20 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_aranges
+                0x0000000000000128       0x20 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_aranges
+                0x0000000000000148       0x20 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x0000000000000168       0x20 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x0000000000000188       0x20 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_aranges
+                0x00000000000001a8       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_aranges
+                0x00000000000001c8       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_aranges
+                0x00000000000001e8       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_aranges
+                0x0000000000000208       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x0000000000000228       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x0000000000000248       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x0000000000000268       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_aranges
+                0x0000000000000288       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_aranges
+                0x00000000000002a8       0x18 ../toneplayer_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x00000000000002c0       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x00000000000002e0       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x0000000000000300       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x0000000000000320       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_aranges
+                0x0000000000000340       0x30 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x0000000000000370       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x0000000000000390       0x18 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x00000000000003a8       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_aranges
+                0x00000000000003c8       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x00000000000003e8       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_aranges
+                0x0000000000000408       0x20 ../toneplayer_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x0000000000000428       0x38 ../toneplayer_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x0000000000000460       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x0000000000000480       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_aranges
+                0x00000000000004a0       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_aranges
+                0x00000000000004c0       0x28 ../toneplayer_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_aranges
+                0x00000000000004e8       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_aranges
+                0x0000000000000508       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_aranges
+                0x0000000000000528       0x18 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000540       0x18 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x0000000000000558       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x0000000000000578       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x0000000000000598       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x00000000000005b8       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x00000000000005d8       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x00000000000005f8       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_aranges
+                0x0000000000000618       0x20 ../toneplayer_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x7bd7
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x7e ../toneplayer_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x000000000000007e       0xd9 obj/default/toneplayer.o
+ .debug_info    0x0000000000000157       0xb4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_info    0x000000000000020b      0x145 ../toneplayer_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x0000000000000350      0x131 ../toneplayer_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x0000000000000481       0xb0 ../toneplayer_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_info    0x0000000000000531      0x4d9 ../toneplayer_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x0000000000000a0a      0x52e ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x0000000000000f38      0x3a0 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_info    0x00000000000012d8      0x280 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_info    0x0000000000001558      0x345 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x000000000000189d      0x340 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x0000000000001bdd      0x226 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_info    0x0000000000001e03      0x2cc ../toneplayer_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_info    0x00000000000020cf       0xd7 ../toneplayer_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_info    0x00000000000021a6      0x321 ../toneplayer_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_info    0x00000000000024c7       0x92 ../toneplayer_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x0000000000002559      0x49c ../toneplayer_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x00000000000029f5      0x1a9 ../toneplayer_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x0000000000002b9e       0x83 ../toneplayer_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_info    0x0000000000002c21       0x83 ../toneplayer_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_info    0x0000000000002ca4       0xa6 ../toneplayer_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x0000000000002d4a       0x92 ../toneplayer_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x0000000000002ddc      0x350 ../toneplayer_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_info    0x000000000000312c      0x1ef ../toneplayer_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x000000000000331b      0x4a5 ../toneplayer_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_info    0x00000000000037c0       0x87 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x0000000000003847      0x187 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x00000000000039ce       0x88 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x0000000000003a56      0x3bb ../toneplayer_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_info    0x0000000000003e11      0x2b0 ../toneplayer_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x00000000000040c1      0x299 ../toneplayer_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_info    0x000000000000435a       0x92 ../toneplayer_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x00000000000043ec       0x8d ../toneplayer_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x0000000000004479      0x2e9 ../toneplayer_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x0000000000004762      0x2e6 ../toneplayer_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_info    0x0000000000004a48      0x310 ../toneplayer_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_info    0x0000000000004d58      0x1e7 ../toneplayer_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_info    0x0000000000004f3f       0xfe c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_info    0x000000000000503d      0x8e4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_info    0x0000000000005921      0x8a1 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_info    0x00000000000061c2       0x8a c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_info    0x000000000000624c      0x11a c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_info    0x0000000000006366      0x144 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_info    0x00000000000064aa       0xe2 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_info    0x000000000000658c      0x934 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_info    0x0000000000006ec0      0x965 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_info    0x0000000000007825      0x2c6 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_info    0x0000000000007aeb       0xec ../toneplayer_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_abbrev   0x0000000000000000     0x2c6b
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 ../toneplayer_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012       0x76 obj/default/toneplayer.o
+ .debug_abbrev  0x0000000000000088       0x6f c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_abbrev  0x00000000000000f7       0x9f ../toneplayer_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x0000000000000196       0xba ../toneplayer_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x0000000000000250       0x60 ../toneplayer_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_abbrev  0x00000000000002b0      0x187 ../toneplayer_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x0000000000000437      0x127 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_abbrev  0x000000000000055e      0x19e ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_abbrev  0x00000000000006fc      0x111 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_abbrev  0x000000000000080d      0x1aa ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x00000000000009b7      0x1a8 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x0000000000000b5f      0x155 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_abbrev  0x0000000000000cb4      0x162 ../toneplayer_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_abbrev  0x0000000000000e16       0x7e ../toneplayer_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_abbrev  0x0000000000000e94      0x11f ../toneplayer_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_abbrev  0x0000000000000fb3       0x42 ../toneplayer_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x0000000000000ff5       0xd9 ../toneplayer_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x00000000000010ce      0x114 ../toneplayer_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x00000000000011e2       0x79 ../toneplayer_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_abbrev  0x000000000000125b       0x79 ../toneplayer_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_abbrev  0x00000000000012d4       0x5a ../toneplayer_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x000000000000132e       0x42 ../toneplayer_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x0000000000001370      0x163 ../toneplayer_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x00000000000014d3      0x169 ../toneplayer_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x000000000000163c      0x114 ../toneplayer_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_abbrev  0x0000000000001750       0x12 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x0000000000001762      0x122 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x0000000000001884       0x40 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x00000000000018c4      0x148 ../toneplayer_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_abbrev  0x0000000000001a0c       0xde ../toneplayer_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x0000000000001aea      0x15a ../toneplayer_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_abbrev  0x0000000000001c44       0x42 ../toneplayer_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x0000000000001c86       0x12 ../toneplayer_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x0000000000001c98       0xf0 ../toneplayer_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x0000000000001d88       0xf0 ../toneplayer_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_abbrev  0x0000000000001e78      0x10d ../toneplayer_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_abbrev  0x0000000000001f85       0xdc ../toneplayer_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_abbrev  0x0000000000002061       0xaa c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_abbrev  0x000000000000210b      0x1e5 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_abbrev  0x00000000000022f0      0x18f c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_abbrev  0x000000000000247f       0x37 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x00000000000024b6       0x7f c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x0000000000002535       0xa3 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x00000000000025d8       0x90 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_abbrev  0x0000000000002668      0x21e c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_abbrev  0x0000000000002886      0x22e c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x0000000000002ab4      0x10e c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_abbrev  0x0000000000002bc2       0xa9 ../toneplayer_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_line     0x0000000000000000     0x2cd9
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x66 ../toneplayer_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000066       0x5a obj/default/toneplayer.o
+ .debug_line    0x00000000000000c0       0x80 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_line    0x0000000000000140       0x8e ../toneplayer_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x00000000000001ce       0xa4 ../toneplayer_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x0000000000000272       0xad ../toneplayer_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_line    0x000000000000031f      0x151 ../toneplayer_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x0000000000000470      0x12f ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x000000000000059f      0x18b ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_line    0x000000000000072a      0x131 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_line    0x000000000000085b      0x171 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x00000000000009cc      0x170 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x0000000000000b3c       0xfd ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_line    0x0000000000000c39       0xf9 ../toneplayer_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_line    0x0000000000000d32       0xa2 ../toneplayer_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_line    0x0000000000000dd4      0x165 ../toneplayer_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_line    0x0000000000000f39       0x51 ../toneplayer_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000000000000f8a       0xf8 ../toneplayer_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x0000000000001082       0xcf ../toneplayer_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x0000000000001151       0x59 ../toneplayer_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_line    0x00000000000011aa       0x59 ../toneplayer_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_line    0x0000000000001203       0x51 ../toneplayer_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x0000000000001254       0x4f ../toneplayer_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x00000000000012a3       0xeb ../toneplayer_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_line    0x000000000000138e       0xdb ../toneplayer_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x0000000000001469      0x135 ../toneplayer_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_line    0x000000000000159e       0x6b ../toneplayer_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x0000000000001609       0xaa ../toneplayer_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x00000000000016b3       0x50 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x0000000000001703      0x12b ../toneplayer_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_line    0x000000000000182e       0xb0 ../toneplayer_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x00000000000018de       0xff ../toneplayer_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_line    0x00000000000019dd       0x51 ../toneplayer_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x0000000000001a2e       0xb3 ../toneplayer_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x0000000000001ae1       0xb5 ../toneplayer_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x0000000000001b96       0xd1 ../toneplayer_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_line    0x0000000000001c67       0xd7 ../toneplayer_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_line    0x0000000000001d3e       0xb9 ../toneplayer_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_line    0x0000000000001df7       0xe7 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_line    0x0000000000001ede      0x1fc c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_line    0x00000000000020da      0x160 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_line    0x000000000000223a       0x5f c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_line    0x0000000000002299      0x176 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_line    0x000000000000240f      0x18c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_line    0x000000000000259b      0x16f c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_line    0x000000000000270a      0x21f c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_line    0x0000000000002929      0x23a c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_line    0x0000000000002b63      0x105 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_line    0x0000000000002c68       0x71 ../toneplayer_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_frame    0x0000000000000000      0xbd0
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x38 obj/default/toneplayer.o
+ .debug_frame   0x0000000000000038       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_frame   0x0000000000000058       0x5c ../toneplayer_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x00000000000000b4       0x2c ../toneplayer_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x00000000000000e0       0x38 ../toneplayer_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_frame   0x0000000000000118       0x88 ../toneplayer_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x00000000000001a0       0xb0 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_frame   0x0000000000000250       0xa4 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_frame   0x00000000000002f4       0x34 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_frame   0x0000000000000328       0x38 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x0000000000000360       0x38 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x0000000000000398       0x60 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_frame   0x00000000000003f8       0x34 ../toneplayer_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_frame   0x000000000000042c       0x38 ../toneplayer_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_frame   0x0000000000000464       0x60 ../toneplayer_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_frame   0x00000000000004c4       0x34 ../toneplayer_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x00000000000004f8       0x34 ../toneplayer_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x000000000000052c       0x60 ../toneplayer_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x000000000000058c       0x38 ../toneplayer_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_frame   0x00000000000005c4       0x38 ../toneplayer_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_frame   0x00000000000005fc       0x34 ../toneplayer_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x0000000000000630       0xa4 ../toneplayer_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x00000000000006d4       0x38 ../toneplayer_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x000000000000070c       0x64 ../toneplayer_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_frame   0x0000000000000770       0x38 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x00000000000007a8       0x8c ../toneplayer_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_frame   0x0000000000000834       0x3c ../toneplayer_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x0000000000000870       0x5c ../toneplayer_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_frame   0x00000000000008cc       0x34 ../toneplayer_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x0000000000000900       0x38 ../toneplayer_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x0000000000000938       0x38 ../toneplayer_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_frame   0x0000000000000970       0x3c ../toneplayer_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_frame   0x00000000000009ac       0x5c ../toneplayer_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_frame   0x0000000000000a08       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000000a28       0x28 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000a50       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000000000000a70       0x38 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_frame   0x0000000000000aa8       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_frame   0x0000000000000ac8       0x38 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_frame   0x0000000000000b00       0x54 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000000b54       0x50 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_frame   0x0000000000000ba4       0x2c ../toneplayer_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_str      0x0000000000000000     0x1d04
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x10a obj/default/toneplayer.o
+                                        0x14d (size before relaxing)
+ .debug_str     0x000000000000010a      0x148 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+                                        0x193 (size before relaxing)
+ .debug_str     0x0000000000000252      0x13b ../toneplayer_bsp/\libhal_bsp.a(alt_load.o)
+                                        0x222 (size before relaxing)
+ .debug_str     0x000000000000038d       0x70 ../toneplayer_bsp/\libhal_bsp.a(alt_main.o)
+                                        0x1ad (size before relaxing)
+ .debug_str     0x00000000000003fd       0x27 ../toneplayer_bsp/\libhal_bsp.a(alt_usleep.o)
+                                        0x158 (size before relaxing)
+ .debug_str     0x0000000000000424      0x1d8 ../toneplayer_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                        0x39e (size before relaxing)
+ .debug_str     0x00000000000005fc       0xb9 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                                        0x3b4 (size before relaxing)
+ .debug_str     0x00000000000006b5       0xd1 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                                        0x348 (size before relaxing)
+ .debug_str     0x0000000000000786       0x4a ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                                        0x2a3 (size before relaxing)
+ .debug_str     0x00000000000007d0       0x7f ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                        0x2f8 (size before relaxing)
+ .debug_str     0x000000000000084f       0x4a ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x2f9 (size before relaxing)
+ .debug_str     0x0000000000000899       0x6d ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+                                        0x25b (size before relaxing)
+ .debug_str     0x0000000000000906       0x59 ../toneplayer_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                                        0x28e (size before relaxing)
+ .debug_str     0x000000000000095f       0x42 ../toneplayer_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                                        0x17b (size before relaxing)
+ .debug_str     0x00000000000009a1       0x44 ../toneplayer_bsp/\libhal_bsp.a(alt_close.o)
+                                        0x21b (size before relaxing)
+ .debug_str     0x00000000000009e5       0x34 ../toneplayer_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x165 (size before relaxing)
+ .debug_str     0x0000000000000a19      0x120 ../toneplayer_bsp/\libhal_bsp.a(alt_dev.o)
+                                        0x315 (size before relaxing)
+ .debug_str     0x0000000000000b39       0x34 ../toneplayer_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                                        0x1dc (size before relaxing)
+ .debug_str     0x0000000000000b6d       0x48 ../toneplayer_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                                         0xe0 (size before relaxing)
+ .debug_str     0x0000000000000bb5       0x4c ../toneplayer_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                                         0xdf (size before relaxing)
+ .debug_str     0x0000000000000c01       0x14 ../toneplayer_bsp/\libhal_bsp.a(alt_errno.o)
+                                        0x155 (size before relaxing)
+ .debug_str     0x0000000000000c15       0x34 ../toneplayer_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x165 (size before relaxing)
+ .debug_str     0x0000000000000c49       0xc4 ../toneplayer_bsp/\libhal_bsp.a(alt_iic.o)
+                                        0x24e (size before relaxing)
+ .debug_str     0x0000000000000d0d       0x4c ../toneplayer_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                                        0x1f8 (size before relaxing)
+ .debug_str     0x0000000000000d59       0x56 ../toneplayer_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                                        0x326 (size before relaxing)
+ .debug_str     0x0000000000000daf       0x3a ../toneplayer_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                                        0x1a7 (size before relaxing)
+ .debug_str     0x0000000000000de9       0x17 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                                        0x14a (size before relaxing)
+ .debug_str     0x0000000000000e00       0x2f ../toneplayer_bsp/\libhal_bsp.a(alt_open.o)
+                                        0x25b (size before relaxing)
+ .debug_str     0x0000000000000e2f       0x28 ../toneplayer_bsp/\libhal_bsp.a(alt_release_fd.o)
+                                        0x1e3 (size before relaxing)
+ .debug_str     0x0000000000000e57       0x4a ../toneplayer_bsp/\libhal_bsp.a(alt_tick.o)
+                                        0x262 (size before relaxing)
+ .debug_str     0x0000000000000ea1       0x3b ../toneplayer_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                        0x16c (size before relaxing)
+ .debug_str     0x0000000000000edc       0x24 ../toneplayer_bsp/\libhal_bsp.a(alt_find_dev.o)
+                                        0x1fc (size before relaxing)
+ .debug_str     0x0000000000000f00       0x26 ../toneplayer_bsp/\libhal_bsp.a(alt_find_file.o)
+                                        0x20a (size before relaxing)
+ .debug_str     0x0000000000000f26       0x30 ../toneplayer_bsp/\libhal_bsp.a(alt_get_fd.o)
+                                        0x22c (size before relaxing)
+ .debug_str     0x0000000000000f56      0x48b ../toneplayer_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                                        0x5b0 (size before relaxing)
+ .debug_str     0x00000000000013e1      0x17c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+                                        0x221 (size before relaxing)
+ .debug_str     0x000000000000155d      0x3af c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+                                        0x5be (size before relaxing)
+ .debug_str     0x000000000000190c       0xd6 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                                        0x5b5 (size before relaxing)
+ .debug_str     0x00000000000019e2       0x3f c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                                        0x1dd (size before relaxing)
+ .debug_str     0x0000000000001a21       0xda c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+                                        0x1e4 (size before relaxing)
+ .debug_str     0x0000000000001afb       0x6b c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+                                        0x20b (size before relaxing)
+ .debug_str     0x0000000000001b66       0x51 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                                        0x1f7 (size before relaxing)
+ .debug_str     0x0000000000001bb7       0x3f c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+                                        0x5f6 (size before relaxing)
+ .debug_str     0x0000000000001bf6       0x65 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+                                        0x5e2 (size before relaxing)
+ .debug_str     0x0000000000001c5b       0x7f c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                                        0x1d2 (size before relaxing)
+ .debug_str     0x0000000000001cda       0x2a ../toneplayer_bsp/\libhal_bsp.a(alt_exit.o)
+                                        0x161 (size before relaxing)
+
+.debug_loc      0x0000000000000000      0xcd1
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x93 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_loc     0x0000000000000093       0x2c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_loc     0x00000000000000bf       0x1e c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_loc     0x00000000000000dd      0x126 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_loc     0x0000000000000203      0x266 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_loc     0x0000000000000469       0x47 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_loc     0x00000000000004b0      0x185 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_loc     0x0000000000000635      0x1ce c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_loc     0x0000000000000803      0x4ce c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x40
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x10 ../toneplayer_bsp//obj/HAL/src/crt0.o
+ .debug_alt_sim_info
+                0x0000000000000010       0x30 ../toneplayer_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x0000000000010000                __alt_data_end = 0x10000
+                0x0000000000010000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit, __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start, end)
+                [!provide]                        PROVIDE (__alt_heap_limit, 0x10000)
+OUTPUT(toneplayer.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000      0x1d8
+ .debug_ranges  0x0000000000000000       0x20 ../toneplayer_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x30 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_ranges  0x0000000000000050       0x18 ../toneplayer_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_ranges  0x0000000000000068       0x28 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x0000000000000090       0x10 ../toneplayer_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_ranges  0x00000000000000a0       0x30 ../toneplayer_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_ranges  0x00000000000000d0       0x18 ../toneplayer_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_ranges  0x00000000000000e8       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_ranges  0x00000000000000f8       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_ranges  0x0000000000000108       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_ranges  0x0000000000000118       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_ranges  0x0000000000000128       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_ranges  0x0000000000000138       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_ranges  0x0000000000000148       0x30 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_ranges  0x0000000000000178       0x60 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)

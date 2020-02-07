@@ -1,16 +1,16 @@
-C:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/tonegenwrapper.v {1 {vlog -work work -stats=none C:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/tonegenwrapper.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module tonegenwrapper
-
-Top level modules:
-	tonegenwrapper
-
-} {} {}} C:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/lab4top.sv {1 {vlog -work work -sv -stats=none C:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/lab4top.sv
+C:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/lab4top.sv {1 {vlog -work work -sv -stats=none C:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/lab4top.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module lab4top
 
 Top level modules:
 	lab4top
+
+} {} {}} C:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/tonegenwrapper.v {1 {vlog -work work -stats=none C:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/tonegenwrapper.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tonegenwrapper
+
+Top level modules:
+	tonegenwrapper
 
 } {} {}} C:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/tonegen.sv {1 {vlog -work work -sv -stats=none C:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/tonegen.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
