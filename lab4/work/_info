@@ -1,0 +1,103 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+vlab4top
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1581094564
+!i10b 1
+!s100 ?`Y1X?0hGCmdcH4LRO6FW0
+I05e976KY<kcc=mYnF1TjJ2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 lab4top_sv_unit
+S1
+Z3 dC:/Users/a00991330/Documents/GitHub/ELEX7660/lab4
+Z4 w1581093198
+8C:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/lab4top.sv
+FC:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/lab4top.sv
+L0 4
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1581094564.000000
+!s107 C:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/lab4top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/lab4top.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vtonegen
+R0
+R1
+!i10b 1
+!s100 FKjCQQe2d6i?1mnhccG8A1
+ICUFP<@44e42Y19?N:9WJG3
+R2
+!s105 tonegen_sv_unit
+S1
+R3
+w1581094559
+8C:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/tonegen.sv
+FC:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/tonegen.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/tonegen.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/tonegen.sv|
+!i113 1
+R7
+R8
+vtonegen_tb
+R0
+R1
+!i10b 1
+!s100 f@34WD:4Ua7Z[NOiN:Vf`2
+I09>MM4mFNYI=gQNhM<PKJ1
+R2
+!s105 tonegen_tb_sv_unit
+S1
+R3
+R4
+8C:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/tonegen_tb.sv
+FC:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/tonegen_tb.sv
+L0 8
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/tonegen_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/tonegen_tb.sv|
+!i113 1
+R7
+R8
+vtonegenwrapper
+R1
+!i10b 1
+!s100 >9NT2J@o=S8bYm[GI^HFb0
+Idezj_lKIKijUJYzO>Fe1h0
+R2
+R3
+R4
+8C:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/tonegenwrapper.v
+FC:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/tonegenwrapper.v
+L0 7
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/tonegenwrapper.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/a00991330/Documents/GitHub/ELEX7660/lab4/tonegenwrapper.v|
+!i113 1
+o-work work
+R8

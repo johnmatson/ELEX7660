@@ -5,10 +5,10 @@ module tonegen
      output logic spkr,             // output for audio
      input logic reset, clk ) ;     // active high reset and clock
 
-  initial begin
-    logic [31:0] count = 0;
-    logic [31:0] freq = 1000;
-  end
+//  initial begin
+    logic [31:0] count;
+    logic [31:0] freq;
+//  end
 
   always_ff @ (posedge clk) begin
     if (write)
@@ -21,7 +21,7 @@ module tonegen
       spkr <= 0;
     end
     else begin
-      if (count >= (fclk/2/freq)) begin
+      if (count >= ((fclk/2/freq)-1)) begin
           spkr <= ~spkr;
           count <= 0;
         end
