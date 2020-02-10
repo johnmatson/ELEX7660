@@ -14,8 +14,10 @@ module encoder (output logic [1:0] y,
             else if (a[0])
                 y = 'b00;
         end
-        else
+        else begin
             valid = 'b0;
+            y = 'b00;
+        end
     end
 
 endmodule

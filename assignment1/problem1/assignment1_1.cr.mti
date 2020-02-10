@@ -1,0 +1,15 @@
+C:/Users/John/Documents/ELEX7660/assignment1/problem1/encoder.sv {1 {vlog -work work -sv -stats=none C:/Users/John/Documents/ELEX7660/assignment1/problem1/encoder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module encoder
+
+Top level modules:
+	encoder
+
+} {} {}} C:/Users/John/Documents/ELEX7660/assignment1/problem1/encoder_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/John/Documents/ELEX7660/assignment1/problem1/encoder_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module encoder_tb
+
+Top level modules:
+	encoder_tb
+
+} {} {}}
