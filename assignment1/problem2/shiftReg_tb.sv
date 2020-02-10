@@ -5,6 +5,8 @@ module shiftReg_tb ;
     logic [1:0] s;
     logic shiftIn, clk, reset_n;
 
+    shiftReg #(.N(4)) dut_0 (.*);
+
     initial begin
         reset_n = 0;
         clk = 0;
@@ -28,6 +30,10 @@ module shiftReg_tb ;
 
         #5ns clk = 0;
         s = 3;
+
+        #5ns clk = 1;
+
+        #5ns clk = 0;
 
         #5ns clk = 1;
 
