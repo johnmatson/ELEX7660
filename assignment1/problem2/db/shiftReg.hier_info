@@ -1,0 +1,41 @@
+|shiftReg
+q[0] <= memory[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= memory[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= memory[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= memory[3].DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= memory[4].DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= memory[5].DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= memory[6].DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= memory[7].DB_MAX_OUTPUT_PORT_TYPE
+a[0] => Mux3.IN1
+a[1] => Mux2.IN1
+a[2] => Mux1.IN1
+a[3] => Mux0.IN1
+a[4] => Mux4.IN1
+a[5] => Mux5.IN1
+a[6] => Mux6.IN1
+a[7] => Mux7.IN1
+s[0] => Mux3.IN3
+s[0] => Mux2.IN3
+s[0] => Mux1.IN3
+s[0] => Mux0.IN3
+s[0] => Mux4.IN3
+s[0] => Mux5.IN3
+s[0] => Mux6.IN3
+s[0] => Mux7.IN3
+s[0] => Mux8.IN5
+s[1] => Mux3.IN2
+s[1] => Mux2.IN2
+s[1] => Mux1.IN2
+s[1] => Mux0.IN2
+s[1] => Mux4.IN2
+s[1] => Mux5.IN2
+s[1] => Mux6.IN2
+s[1] => Mux7.IN2
+s[1] => Mux8.IN4
+shiftIn => Mux3.IN4
+shiftIn => Mux7.IN4
+clk => ~NO_FANOUT~
+reset_n => ~NO_FANOUT~
+
+

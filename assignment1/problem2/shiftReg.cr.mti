@@ -5,4 +5,11 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	shiftReg
 
+} {} {}} C:/Users/John/Documents/ELEX7660/assignment1/problem2/shiftReg_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/John/Documents/ELEX7660/assignment1/problem2/shiftReg_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shiftReg_tb
+
+Top level modules:
+	shiftReg_tb
+
 } {} {}}
