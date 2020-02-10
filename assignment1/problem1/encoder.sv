@@ -1,6 +1,6 @@
-module encoder (output logic [1:0] y,
-                output logic valid,
-                input logic [3:0] a);
+module encoder (output logic [1:0] y, // 4-2 bit encoder output
+                output logic valid, // non-zero output signal
+                input logic [3:0] a); // 4-bit encoder input
 
     always_comb begin
         if (a) begin

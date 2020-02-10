@@ -1,11 +1,11 @@
 module shiftReg_tb ;
 
-    logic [3:0] q;
-    logic [3:0] a;
-    logic [1:0] s;
+    logic [3:0] q; // n-bit bus output
+    logic [3:0] a; // n-bit bus input
+    logic [1:0] s; // input command selector
     logic shiftIn, clk, reset_n;
 
-    shiftReg #(.N(4)) dut_0 (.*);
+    shiftReg #(.N(4)) dut_0 (.*); // configure 4-bit bus parameter
 
     initial begin
         reset_n = 0;
