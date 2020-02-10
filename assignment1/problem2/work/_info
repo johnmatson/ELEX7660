@@ -1,0 +1,35 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+vshiftReg_tb
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1581331242
+!i10b 1
+!s100 YWTSSQT1Hl4be5<SGK]g41
+IiWA_n^G=f2gDN8_OEoZ0_0
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 shiftReg_tb_sv_unit
+S1
+dC:/Users/John/Documents/ELEX7660/assignment1/problem2
+w1581329689
+8C:/Users/John/Documents/ELEX7660/assignment1/problem2/shiftReg_tb.sv
+FC:/Users/John/Documents/ELEX7660/assignment1/problem2/shiftReg_tb.sv
+L0 1
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1581331242.000000
+!s107 C:/Users/John/Documents/ELEX7660/assignment1/problem2/shiftReg_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/John/Documents/ELEX7660/assignment1/problem2/shiftReg_tb.sv|
+!i113 1
+o-work work -sv
+tCvgOpt 0
+nshift@reg_tb

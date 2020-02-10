@@ -10,15 +10,15 @@ cModel Technology
 dC:/intelFPGA_lite/18.1
 vencoder
 Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z1 !s110 1581330035
+Z1 !s110 1581330926
 !i10b 1
-!s100 ]G?jS[jnDFL`NS?1SfD7Z3
-I2Lkh^9E@M;T83=kZ;WoYc1
+!s100 ;J9P[mY<FE[b<i7f4X1731
+IT_1mPG09kboIJ:;IPOU;a2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 !s105 encoder_sv_unit
 S1
 Z3 dC:/Users/John/Documents/ELEX7660/assignment1/problem1
-w1581330028
+w1581330877
 8C:/Users/John/Documents/ELEX7660/assignment1/problem1/encoder.sv
 FC:/Users/John/Documents/ELEX7660/assignment1/problem1/encoder.sv
 L0 1
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1581330035.000000
+Z5 !s108 1581330926.000000
 !s107 C:/Users/John/Documents/ELEX7660/assignment1/problem1/encoder.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/John/Documents/ELEX7660/assignment1/problem1/encoder.sv|
 !i113 1
@@ -42,7 +42,7 @@ R2
 !s105 encoder_tb_sv_unit
 S1
 R3
-w1581329689
+w1581330154
 8C:/Users/John/Documents/ELEX7660/assignment1/problem1/encoder_tb.sv
 FC:/Users/John/Documents/ELEX7660/assignment1/problem1/encoder_tb.sv
 L0 1

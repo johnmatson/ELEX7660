@@ -1,0 +1,15 @@
+|encoder
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+valid <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+a[0] => WideOr0.IN0
+a[1] => WideOr0.IN1
+a[1] => y.DATAA
+a[2] => WideOr0.IN2
+a[2] => y.OUTPUTSELECT
+a[2] => y.DATAA
+a[3] => WideOr0.IN3
+a[3] => y.OUTPUTSELECT
+a[3] => y.OUTPUTSELECT
+
+

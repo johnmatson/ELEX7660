@@ -11,7 +11,7 @@ module encoder (output logic [1:0] y,
                 y = 'b10;
             else if (a[1])
                 y = 'b01;
-            else if (a[0])
+            else
                 y = 'b00;
         end
         else begin
