@@ -1,0 +1,12 @@
+	component lab5 is
+		port (
+			clk_clk       : in  std_logic                    := 'X'; -- clk
+			gpio_export   : out std_logic_vector(7 downto 0);        -- export
+			reset_reset_n : in  std_logic                    := 'X'; -- reset_n
+			spi_MISO      : in  std_logic                    := 'X'; -- MISO
+			spi_MOSI      : out std_logic;                           -- MOSI
+			spi_SCLK      : out std_logic;                           -- SCLK
+			spi_SS_n      : out std_logic                            -- SS_n
+		);
+	end component lab5;
+

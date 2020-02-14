@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.cdt.ui.CElementWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1581704328164_1" label="lab5" name="lab5">
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/lab5_bsp" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/lab5" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1581703909642_0" label="Window Working Set" name="Aggregate for window 1581703909642"/>
+<mruList name="lab5"/>
+</workingSetManager>

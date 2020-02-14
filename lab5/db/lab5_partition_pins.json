@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "rgb_din",
+					"strict" : false
+				},
+				{
+					"name" : "rgb_clk",
+					"strict" : false
+				},
+				{
+					"name" : "rgb_cs",
+					"strict" : false
+				},
+				{
+					"name" : "rgb_dc",
+					"strict" : false
+				},
+				{
+					"name" : "rgb_res",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[0]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_CLK1_50",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
