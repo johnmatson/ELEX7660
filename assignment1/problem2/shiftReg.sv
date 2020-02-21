@@ -19,11 +19,15 @@ module shiftReg #(parameter N = 8) (output logic [N-1:0] q, // n-bit bus output
                 q <= memory;
             end
             1 : begin
+                // the following non-blocking memory statements are in conflict - FIX
+                // try q[N-2:0] <= q[N-1]; q[N-1] <= shiftIn;
+                // or prefferably q <= {shiftIn, q[N-1:1]};
                 memory <= memory>>1;
                 memory[N-1] <= shiftIn;
                 q <= memory;
             end
             2 : begin
+                // same problem here
                 memory <= memory<<1;
                 memory[0] <= shiftIn;
                 q <= memory;
