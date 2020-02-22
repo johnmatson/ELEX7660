@@ -1,8 +1,10 @@
 module vendingMachine_tb;
 
-    logic valid, // output signal asserted once total change reaches $1
-    logic nickel, dime, quarter, // $0.05, $0.10 & $0.25 inputs
-    logic clk, reset_n);
+    logic valid; // output signal asserted once total change reaches $1
+    logic nickel, dime, quarter; // $0.05, $0.10 & $0.25 inputs
+    logic clk, reset_n;
+
+    vendingMachine dut_0 (.*);
 
     initial begin
         nickel = 0;

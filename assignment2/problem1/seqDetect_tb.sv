@@ -5,6 +5,8 @@ module seqDetect_tb;
     logic [3:0] seq = 0100; // correct signal for comparison
     logic clk, reset_n;
 
+    seqDetect dut_0 (.*);
+
     int i;
 
     initial begin
@@ -16,14 +18,14 @@ module seqDetect_tb;
         #5ns reset_n = 1;
     forever begin
         #5ns clk = ~clk;
-        a = seq[i%4]
+        a = seq[i%4];
         i++;
     end
     end
 
     initial begin
         #50ns reset_n = 0;
-        #70ns reset_n = 1;
+        #20ns reset_n = 1;
         #100ns $stop;
     end
 
