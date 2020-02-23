@@ -10,12 +10,13 @@ module seqDetect (  output logic valid, // output valid signal for correct seque
         // check for asychronous resest
         if (~reset_n) begin
             valid <= 0;
+            A <= 0;
         end
 
         // shift a bit in and compare sequence
         else begin
-            A <= {a, A[2:0]};
-            if (A==a)
+            A <= {A[2:0], a};
+            if (A==seq)
                 valid <= 1;
             else
                 valid <= 0;

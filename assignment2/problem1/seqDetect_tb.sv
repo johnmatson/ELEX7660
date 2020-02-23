@@ -20,13 +20,14 @@ module seqDetect_tb;
         #5ns clk = ~clk;
         a = seq[i%4];
         i++;
+        #5ns clk = ~clk;
     end
     end
 
     initial begin
-        #50ns reset_n = 0;
-        #20ns reset_n = 1;
-        #100ns $stop;
+        //#50ns reset_n = 0;
+        //#20ns reset_n = 1;
+        #200ns $stop;
     end
 
 endmodule
