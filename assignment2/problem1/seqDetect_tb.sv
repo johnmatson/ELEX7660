@@ -25,9 +25,9 @@ module seqDetect_tb;
     end
 
     initial begin
-        //#50ns reset_n = 0;
-        //#20ns reset_n = 1;
-        #200ns $stop;
+        #100ns reset_n = 0;
+        #40ns reset_n = 1;
+        #60ns $stop;
     end
 
 endmodule

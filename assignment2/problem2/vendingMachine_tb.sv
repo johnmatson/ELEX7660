@@ -37,8 +37,8 @@ module vendingMachine_tb;
     end
     
     initial begin
-        //#50ns reset_n = 0;
-        //#5ns reset_n = 1;
-        #200ns $stop;
+        #100ns reset_n = 0;
+        #10ns reset_n = 1;
+        #100ns $stop;
     end
 endmodule

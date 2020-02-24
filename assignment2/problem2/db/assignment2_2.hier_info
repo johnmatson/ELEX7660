@@ -1,0 +1,17 @@
+|seqDetect
+valid <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+a => A[0].DATAIN
+seq[0] => Equal0.IN3
+seq[1] => Equal0.IN2
+seq[2] => Equal0.IN1
+seq[3] => Equal0.IN0
+clk => A[0].CLK
+clk => A[1].CLK
+clk => A[2].CLK
+clk => A[3].CLK
+reset_n => A[0].ACLR
+reset_n => A[1].ACLR
+reset_n => A[2].ACLR
+reset_n => A[3].ACLR
+
+

@@ -4,7 +4,6 @@ module seqDetect (  output logic valid, // output valid signal for correct seque
                     input logic clk, reset_n); 
 
     logic [3:0] A; // concatenated sequence from input signal a
-    logic [3:0] A_comb;
 
     always_ff @ (posedge clk, negedge reset_n) begin
 
@@ -13,12 +12,13 @@ module seqDetect (  output logic valid, // output valid signal for correct seque
             A <= 0;
         end
 
-        // shift a bit in and compare sequence
+        // shift a bit
         else begin
             A <= {A[2:0], a};
         end
     end
 
+    // compare sequences
     always_comb begin
         if (A==seq)
             valid = 1;

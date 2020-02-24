@@ -10,15 +10,15 @@ cModel Technology
 dC:/intelFPGA_lite/18.1
 vseqDetect
 Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z1 !s110 1582501452
+Z1 !s110 1582520133
 !i10b 1
-!s100 DR6QPIzA_kUYMHU_73B8?3
-IDgR8;LU^R2i9Fi50]99;11
+!s100 m`RnH4@Z2eX>fJFK1J<`:2
+IcnI6FPI_<FWcJM8<Y8c?@3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 !s105 seqDetect_sv_unit
 S1
 Z3 dC:/Users/John Matson/OneDrive/Documents/Admin/Repositories/BEng/Term6/ELEX7660/assignment2/problem1
-w1582501446
+w1582517760
 8C:/Users/John Matson/OneDrive/Documents/Admin/Repositories/BEng/Term6/ELEX7660/assignment2/problem1/seqDetect.sv
 FC:/Users/John Matson/OneDrive/Documents/Admin/Repositories/BEng/Term6/ELEX7660/assignment2/problem1/seqDetect.sv
 L0 1
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1582501452.000000
+Z5 !s108 1582520133.000000
 !s107 C:/Users/John Matson/OneDrive/Documents/Admin/Repositories/BEng/Term6/ELEX7660/assignment2/problem1/seqDetect.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/John Matson/OneDrive/Documents/Admin/Repositories/BEng/Term6/ELEX7660/assignment2/problem1/seqDetect.sv|
 !i113 1
@@ -37,13 +37,13 @@ vseqDetect_tb
 R0
 R1
 !i10b 1
-!s100 Y=MaXj3^EBY3Om0KDML>L2
-Il[4WFc7Ul`DA<>gQHWUn20
+!s100 e`QnSECoC4gTUj[GP@>2Y2
+IVV6`Y=kQg[[BDlRo4:UTX2
 R2
 !s105 seqDetect_tb_sv_unit
 S1
 R3
-w1582499027
+w1582520128
 8C:/Users/John Matson/OneDrive/Documents/Admin/Repositories/BEng/Term6/ELEX7660/assignment2/problem1/seqDetect_tb.sv
 FC:/Users/John Matson/OneDrive/Documents/Admin/Repositories/BEng/Term6/ELEX7660/assignment2/problem1/seqDetect_tb.sv
 L0 1

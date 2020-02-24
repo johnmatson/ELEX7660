@@ -5,11 +5,4 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	seqDetect
 
-} {} {}} {C:/Users/John Matson/OneDrive/Documents/Admin/Repositories/BEng/Term6/ELEX7660/assignment2/problem1/seqDetect_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/John Matson/OneDrive/Documents/Admin/Repositories/BEng/Term6/ELEX7660/assignment2/problem1/seqDetect_tb.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module seqDetect_tb
-
-Top level modules:
-	seqDetect_tb
-
 } {} {}}
