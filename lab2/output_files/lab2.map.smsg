@@ -1,1 +1,1 @@
-Warning (10268): Verilog HDL information at colseq.sv(12): always construct contains both blocking and non-blocking assignments File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/colseq.sv Line: 12
+Warning (10268): Verilog HDL information at colseq.sv(12): always construct contains both blocking and non-blocking assignments File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/colseq.sv Line: 12

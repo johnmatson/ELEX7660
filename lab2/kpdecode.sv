@@ -13,11 +13,11 @@ module kpdecode (   input logic [3:0] kpr, kpc, // keypad rows and columns
 
 		if (kpr != 15) begin
 		kphit = 1;
-			case (kpc)
+			case (kpr)
 
-				'b0111 : begin
+				'b1110 : begin
 					kphit = 1;
-					case (kpr)
+					case (kpc)
 						'b0111 : num = 1;
 						'b1011 : num = 4;
 						'b1101 : num = 7;
@@ -25,9 +25,9 @@ module kpdecode (   input logic [3:0] kpr, kpc, // keypad rows and columns
 					endcase
 				end
 
-				'b1011 : begin
+				'b1101 : begin
 					kphit = 1;
-					case (kpr)
+					case (kpc)
 						'b0111 : num = 2;
 						'b1011 : num = 5;
 						'b1101 : num = 8;
@@ -35,9 +35,9 @@ module kpdecode (   input logic [3:0] kpr, kpc, // keypad rows and columns
 					endcase
 				end
 
-				'b1101 : begin
+				'b1011 : begin
 					kphit = 1;
-					case (kpr)
+					case (kpc)
 						'b0111 : num = 3;
 						'b1011 : num = 6;
 						'b1101 : num = 9;
@@ -45,9 +45,9 @@ module kpdecode (   input logic [3:0] kpr, kpc, // keypad rows and columns
 					endcase
 				end
 
-				'b1110 : begin
+				'b0111 : begin
 					kphit = 1;
-					case (kpr)
+					case (kpc)
 						'b0111 : num = 10;
 						'b1011 : num = 11;
 						'b1101 : num = 12;

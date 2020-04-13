@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab2
-Fri Jan 24 10:08:54 2020
+Sun Apr 12 20:28:00 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -47,7 +47,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Fri Jan 24 10:08:54 2020       ;
+; Analysis & Synthesis Status     ; Successful - Sun Apr 12 20:28:00 2020       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; lab2                                        ;
 ; Top-level Entity Name           ; lab2                                        ;
@@ -159,34 +159,34 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 6           ;
-; Maximum allowed            ; 6           ;
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 8           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 6           ;
+; Maximum used               ; 8           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-6         ;   0.0%      ;
+;     Processors 2-8         ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                 ;
-+----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                             ; Library ;
-+----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------+---------+
-; lab2.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2.sv                ;         ;
-; kpdecode.sv                      ; yes             ; User SystemVerilog HDL File  ; C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/kpdecode.sv            ;         ;
-; decode7.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/decode7.sv             ;         ;
-; colseq.sv                        ; yes             ; User SystemVerilog HDL File  ; C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/colseq.sv              ;         ;
-; altpll.tdf                       ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altpll.tdf        ;         ;
-; aglobal181.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/aglobal181.inc    ;         ;
-; stratix_pll.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_pll.inc   ;         ;
-; stratixii_pll.inc                ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratixii_pll.inc ;         ;
-; cycloneii_pll.inc                ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/cycloneii_pll.inc ;         ;
-; db/lab1clk_altpll.v              ; yes             ; Auto-Generated Megafunction  ; C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/db/lab1clk_altpll.v    ;         ;
-+----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                       ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                   ; Library ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------------+---------+
+; lab2.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/lab2.sv             ;         ;
+; kpdecode.sv                      ; yes             ; User SystemVerilog HDL File  ; C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/kpdecode.sv         ;         ;
+; decode7.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/decode7.sv          ;         ;
+; colseq.sv                        ; yes             ; User SystemVerilog HDL File  ; C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/colseq.sv           ;         ;
+; altpll.tdf                       ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altpll.tdf                              ;         ;
+; aglobal181.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/aglobal181.inc                          ;         ;
+; stratix_pll.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_pll.inc                         ;         ;
+; stratixii_pll.inc                ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratixii_pll.inc                       ;         ;
+; cycloneii_pll.inc                ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/cycloneii_pll.inc                       ;         ;
+; db/lab1clk_altpll.v              ; yes             ; Auto-Generated Megafunction  ; C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/db/lab1clk_altpll.v ;         ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------------+---------+
 
 
 +------------------------------------------------------------------------+
@@ -669,10 +669,10 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; arriav_ff             ; 2                           ;
 ;     CLR               ; 2                           ;
-; arriav_lcell_comb     ; 25                          ;
-;     normal            ; 25                          ;
+; arriav_lcell_comb     ; 24                          ;
+;     normal            ; 24                          ;
 ;         0 data inputs ; 2                           ;
-;         1 data inputs ; 6                           ;
+;         1 data inputs ; 5                           ;
 ;         2 data inputs ; 5                           ;
 ;         4 data inputs ; 8                           ;
 ;         6 data inputs ; 4                           ;
@@ -680,7 +680,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; generic_pll           ; 1                           ;
 ;                       ;                             ;
 ; Max LUT depth         ; 3.00                        ;
-; Average LUT depth     ; 1.91                        ;
+; Average LUT depth     ; 1.88                        ;
 +-----------------------+-----------------------------+
 
 
@@ -699,24 +699,24 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Fri Jan 24 10:08:45 2020
+    Info: Processing started: Sun Apr 12 20:27:51 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab2 -c lab2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
 Info (12021): Found 2 design units, including 2 entities, in source file lab2.sv
-    Info (12023): Found entity 1: lab2 File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2.sv Line: 5
-    Info (12023): Found entity 2: pll File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2.sv Line: 32
+    Info (12023): Found entity 1: lab2 File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/lab2.sv Line: 5
+    Info (12023): Found entity 2: pll File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/lab2.sv Line: 32
 Info (12021): Found 1 design units, including 1 entities, in source file kpdecode.sv
-    Info (12023): Found entity 1: kpdecode File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/kpdecode.sv Line: 6
+    Info (12023): Found entity 1: kpdecode File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/kpdecode.sv Line: 6
 Info (12021): Found 1 design units, including 1 entities, in source file decode7.sv
-    Info (12023): Found entity 1: decode7 File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/decode7.sv Line: 8
+    Info (12023): Found entity 1: decode7 File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/decode7.sv Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file colseq.sv
-    Info (12023): Found entity 1: colseq File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/colseq.sv Line: 6
+    Info (12023): Found entity 1: colseq File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/colseq.sv Line: 6
 Info (12127): Elaborating entity "lab2" for the top level hierarchy
-Info (12128): Elaborating entity "pll" for hierarchy "pll:pll0" File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2.sv Line: 17
-Info (12128): Elaborating entity "altpll" for hierarchy "pll:pll0|altpll:altpll_component" File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2.sv Line: 56
-Info (12130): Elaborated megafunction instantiation "pll:pll0|altpll:altpll_component" File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2.sv Line: 56
-Info (12133): Instantiated megafunction "pll:pll0|altpll:altpll_component" with the following parameter: File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2.sv Line: 56
+Info (12128): Elaborating entity "pll" for hierarchy "pll:pll0" File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/lab2.sv Line: 17
+Info (12128): Elaborating entity "altpll" for hierarchy "pll:pll0|altpll:altpll_component" File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/lab2.sv Line: 56
+Info (12130): Elaborated megafunction instantiation "pll:pll0|altpll:altpll_component" File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/lab2.sv Line: 56
+Info (12133): Instantiated megafunction "pll:pll0|altpll:altpll_component" with the following parameter: File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/lab2.sv Line: 56
     Info (12134): Parameter "bandwidth_type" = "AUTO"
     Info (12134): Parameter "clk0_divide_by" = "25000"
     Info (12134): Parameter "clk0_duty_cycle" = "50"
@@ -772,27 +772,27 @@ Info (12133): Instantiated megafunction "pll:pll0|altpll:altpll_component" with 
     Info (12134): Parameter "port_extclk3" = "PORT_UNUSED"
     Info (12134): Parameter "width_clock" = "5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lab1clk_altpll.v
-    Info (12023): Found entity 1: lab1clk_altpll File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/db/lab1clk_altpll.v Line: 29
+    Info (12023): Found entity 1: lab1clk_altpll File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/db/lab1clk_altpll.v Line: 29
 Info (12128): Elaborating entity "lab1clk_altpll" for hierarchy "pll:pll0|altpll:altpll_component|lab1clk_altpll:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altpll.tdf Line: 897
-Info (12128): Elaborating entity "colseq" for hierarchy "colseq:colseq_0" File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2.sv Line: 19
-Info (12128): Elaborating entity "kpdecode" for hierarchy "kpdecode:kpdecode_0" File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2.sv Line: 20
-Warning (10270): Verilog HDL Case Statement warning at kpdecode.sv(20): incomplete case statement has no default case item File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/kpdecode.sv Line: 20
-Warning (10270): Verilog HDL Case Statement warning at kpdecode.sv(30): incomplete case statement has no default case item File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/kpdecode.sv Line: 30
-Warning (10270): Verilog HDL Case Statement warning at kpdecode.sv(40): incomplete case statement has no default case item File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/kpdecode.sv Line: 40
-Warning (10270): Verilog HDL Case Statement warning at kpdecode.sv(50): incomplete case statement has no default case item File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/kpdecode.sv Line: 50
-Info (12128): Elaborating entity "decode7" for hierarchy "decode7:decode7_0" File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2.sv Line: 21
+Info (12128): Elaborating entity "colseq" for hierarchy "colseq:colseq_0" File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/lab2.sv Line: 19
+Info (12128): Elaborating entity "kpdecode" for hierarchy "kpdecode:kpdecode_0" File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/lab2.sv Line: 20
+Warning (10270): Verilog HDL Case Statement warning at kpdecode.sv(20): incomplete case statement has no default case item File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/kpdecode.sv Line: 20
+Warning (10270): Verilog HDL Case Statement warning at kpdecode.sv(30): incomplete case statement has no default case item File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/kpdecode.sv Line: 30
+Warning (10270): Verilog HDL Case Statement warning at kpdecode.sv(40): incomplete case statement has no default case item File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/kpdecode.sv Line: 40
+Warning (10270): Verilog HDL Case Statement warning at kpdecode.sv(50): incomplete case statement has no default case item File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/kpdecode.sv Line: 50
+Info (12128): Elaborating entity "decode7" for hierarchy "decode7:decode7_0" File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/lab2.sv Line: 21
 Info (13014): Ignored 4 buffer(s)
     Info (13019): Ignored 4 SOFT buffer(s)
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "leds[7]" is stuck at VCC File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2.sv Line: 8
-    Warning (13410): Pin "ct[1]" is stuck at GND File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2.sv Line: 9
-    Warning (13410): Pin "ct[2]" is stuck at GND File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2.sv Line: 9
-    Warning (13410): Pin "ct[3]" is stuck at GND File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/lab2.sv Line: 9
+    Warning (13410): Pin "leds[7]" is stuck at VCC File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/lab2.sv Line: 8
+    Warning (13410): Pin "ct[1]" is stuck at GND File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/lab2.sv Line: 9
+    Warning (13410): Pin "ct[2]" is stuck at GND File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/lab2.sv Line: 9
+    Warning (13410): Pin "ct[3]" is stuck at GND File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/lab2.sv Line: 9
 Info (286030): Timing-Driven Synthesis is running
-Info (144001): Generated suppressed messages file C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/output_files/lab2.map.smsg
+Info (144001): Generated suppressed messages file C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/output_files/lab2.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 3 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
-Warning: RST port on the PLL is not properly connected on instance pll:pll0|altpll:altpll_component|lab1clk_altpll:auto_generated|generic_pll1. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/db/lab1clk_altpll.v Line: 60
+Warning: RST port on the PLL is not properly connected on instance pll:pll0|altpll:altpll_component|lab1clk_altpll:auto_generated|generic_pll1. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/db/lab1clk_altpll.v Line: 60
     Info: Must be connected
 Info (21057): Implemented 41 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 6 input pins
@@ -800,15 +800,15 @@ Info (21057): Implemented 41 device resources after synthesis - the final resour
     Info (21061): Implemented 18 logic cells
     Info (21065): Implemented 1 PLLs
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 11 warnings
-    Info: Peak virtual memory: 4870 megabytes
-    Info: Processing ended: Fri Jan 24 10:08:54 2020
+    Info: Peak virtual memory: 4885 megabytes
+    Info: Processing ended: Sun Apr 12 20:28:00 2020
     Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:17
+    Info: Total CPU time (on all processors): 00:00:22
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/a00991330/Documents/GitHub/ELEX7660/lab2/output_files/lab2.map.smsg.
+The suppressed messages can be found in C:/Users/John Matson/Documents/Admin/Repositories/BEng/Term6/ELEX7660/lab2/output_files/lab2.map.smsg.
 
 
